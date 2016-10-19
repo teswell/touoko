@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="search-wrap">
+            <div class="search-content">
+                <form action="/home/house/index" method="post">
+                    <table class="search-tab">
+                        <tr>
+                            <th width="120">选择房子类型:</th>
+                            <td>
+                                <select name="type__IN">
+                                    <option value="">请选择</option>
+                                    <option value="1">单间</option>
+                                    <option value="2">主卧带独卫</option>
+                                    <option value="3">标间套一</option>
+                                    <option value="4">整租</option>
+                                </select>
+                            </td>
+                            <th width="70">房子标题:</th>
+                            <td><input class="common-text" placeholder="关键字" name="title__LIKE" type="text"></td>
+                            <th width="70">详细地址:</th>
+                            <td><input class="common-text" placeholder="关键字" name="address__LIKE" type="text"></td>
+                            <td><input class="btn btn-primary btn2" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <div class="short-wrap">
+                    <a href="/home/house/add"><i class="icon-font"></i>填加租房</a>
+                </div>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="#" method="post">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>封面图片</th>
+                            <th>标题</th>
+                            <th>详细地址</th>
+                            <th>类型</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        {{foreach $list as $key=>$row}}
+                        <tr>
+                            <td class= "first-cell">{$row.id}</td>
+                            <!--url格式兼容-->
+                            {{if strstr({$row.img},'http')}}
+                            <td class= "first-cell"><img src="{$row.img}&width=60&height=60" style="height: 60px"></td>
+                            {{else}}
+                            <td class= "first-cell"><img src="{$img}{$row.img}" style="height: 60px"></td>
+                            {{/if}}
+                            <td class= "first-cell"><a href="/home/room/index/id/{{$row.id}}">{$row.title}</a></td>
+                            <td class= "first-cell">{$row.address}</td>
+                            <td class= "first-cell">{$row.type}</td>
+                            <td class= "first-cell">{{if $row.status==1}}激活{{else}}未激活{{/if}}</td>
+                            <td align= "center">
+                                <a href= "/home/house/edit/id/{{$row.id}}" title= "编辑"> 编辑 </a> |
+                                <a href= "/home/house/img_add/id/{{$row.id}}" title= "编辑"> 图文详情 </a> |
+                                <a class="ajax_delete" href= "javascript:void(0)" title="移除" onclick="remove_delete({{$row.id}},'/home/house/delete')"> 移除 </a>
+                            </td>
+                        </tr>
+                        {{/foreach}}
+                    </table>
+                </form>
+                <div class="list-page">{{$page}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

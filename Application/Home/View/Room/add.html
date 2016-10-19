@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+{{include file='comm/upload_js.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/room/add" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>房间标题：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="room[name]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>价钱：</th>
+                            <td>
+                                <input class="common-text required"  name="room[price]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>面积：</th>
+                            <td>
+                                <input class="common-text required"  name="room[size]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>上传房间图片：</th>
+                            <td>
+                                <div id="preview">
+                                    <img id="imghead" width=100% height=auto border=0 src="">
+                                </div>
+                                <input class="common-text required" name="img" size="50" value="" type="file" onchange="previewImage(this)">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>房间类型：</th>
+                            <td>
+                                <input type="checkbox" name="room[type][]" value="1"/>飘窗 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="2"/>阳台 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="3"/>独卫 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="4"/>两人 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="5"/>空调 &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>状态：</th>
+                            <td>
+                                <input class="common-text required"  name="room[status]" value="-1" type="radio" checked>下架 &nbsp;
+                                <input class="common-text required"  name="room[status]" value="1" type="radio">已入住 &nbsp;
+                                <input class="common-text required"  name="room[status]" value="2" type="radio">未入住 &nbsp;
+                                <input class="common-text required"  name="room[status]" value="3" type="radio">正在装修 &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

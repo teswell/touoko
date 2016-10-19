@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+{{include file='comm/upload_js.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/room/edit" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>房间标题：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="room[name]" size="50" value="{{$info.name}}" type="text">
+                                <input  name="room[id]" value="{{$info.id}}" type="hidden">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>价钱：</th>
+                            <td>
+                                <input class="common-text required"  name="room[price]" size="50" value="{{$info.price}}" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>面积：</th>
+                            <td>
+                                <input class="common-text required"  name="room[size]" size="50" value="{{$info.size}}" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>上传房间图片：</th>
+                            <td>
+                                <div id="preview">
+                                    {{if strstr($info.img,'http')}}
+                                    <img id="imghead" width=100% height=auto border=0 src="{{$info.img}}&width=260&height=190">
+                                    {{else}}
+                                    <img id="imghead" width=100% height=auto border=0 src="{{$img}}{{$info.img}}">
+                                    {{/if}}
+                                </div>
+                                <input class="common-text required" name="img" size="50" value="" type="file" onchange="previewImage(this)">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>房间类型：</th>
+                            <td>
+                                <input type="checkbox" name="room[type][]" value="1" {{if strstr($info.type,'1')}}checked{{/if}}/>飘窗 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="2" {{if strstr($info.type,'2')}}checked{{/if}}/>阳台 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="3" {{if strstr($info.type,'3')}}checked{{/if}}/>独卫 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="4" {{if strstr($info.type,'4')}}checked{{/if}}/>两人 &nbsp;
+                                <input type="checkbox" name="room[type][]" value="5" {{if strstr($info.type,'4')}}checked{{/if}}/>空调 &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>状态：</th>
+                            <td>
+                                <input class="common-text required"  name="room[status]" value="-1" type="radio" {{if $info.status==-1}}checked{{/if}}>下架 &nbsp;
+                                <input class="common-text required"  name="room[status]" value="1" type="radio" {{if $info.status==1}}checked{{/if}}>已入住 &nbsp;
+                                <input class="common-text required"  name="room[status]" value="2" type="radio" {{if $info.status==2}}checked{{/if}}>未入住 &nbsp;
+                                <input class="common-text required"  name="room[status]" value="3" type="radio" {{if $info.status==3}}checked{{/if}}>正在装修 &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

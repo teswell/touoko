@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {{include file='share/header_url.html'}}
+</head>
+<body data-spy="scroll">
+    {{include file='share/header.html'}}
+<div class="jum-banner">
+    <div class="shuff">
+        <ul class="rslides f426x240">
+            {{foreach $ad as $key=>$val}}
+            <li style="background-color:{{$val.back_color}}">
+                <a href="{{$val.url}}" target="_blank">
+                    <img data-src="{{$img}}{{$val.img}}" src="{{$img}}{{$val.img}}" alt="{{$val.title}}" />
+                </a>
+            </li>
+            {{/foreach}}
+        </ul>
+    </div>
+</div>
+<div class="i-search">
+    <div class="search-main">
+        <div class="i-search-box">
+            <input type="text" class="form-control" placeholder="请输入关键字查找" id="KKW2">
+            <i class="i-spring-ice"></i>
+        </div>
+        <div class="btn-jixue"></div>
+        <button class="btn  search-btn" id="btnSearch" type="submit"></button>
+        <a class="home-map-serach" href="/search_map/" title="地图找房" target="_blank"></a>
+        <div class="clearfix"></div>
+        <div class="search-keywords">
+            <!--全局变量-->
+            <span><strong>热门区域：</strong></span>
+            <a href="/rent/cdjnq/h56/">九里堤</a>&nbsp;<a href="/rent/cdqyq/h234/">内光华</a>&nbsp;<a href="/rent/cdwhq/h6/">红牌楼</a>&nbsp;<a href="/rent/cdgxq/h68a1//">火车南站</a>&nbsp;<a href="/rent/cdjjq/h242a1/">静居寺</a>
+        </div>
+
+    </div>
+</div>
+<div class="i-list container-min">
+    <div class="list-name">今日精选房源</div>
+    {{foreach $house as $key=>$val}}
+    <div class="thumb-box">
+        <a href="/index/rent/detail/id/{{$val.id}}" target="_blank">
+            <img src="{{$tse_img}}loading.gif" data-original="{{$val.img}}&amp;width=318&amp;height=212" width=" 318" height="212" alt="{{$val.title}}" />
+        </a>
+        <h4 class="title">
+            <span style="padding: 0 2px; font-size: 12px; color: #fff; background-color: #02a39b; border: 1px solid #02a39b; border-radius: 3px;">自营</span>
+            <a href="/index/rent/detail/id/{{$val.id}}" target="_blank">
+                <strong>{{$val.title}}</strong>
+            </a>
+        </h4>
+        <div class="price">
+            <span>¥</span>
+            {{if $val.min_price == $val.max_price}}
+            {{$val.min_price}}
+            {{else}}
+            {{$val.min_price}}<span>~</span>{{$val.max_price}}
+            {{/if}}
+            <span class="price-months">元/月</span>
+        </div>
+        <p class="des">{{$val.address}}</p>
+        <div class="clearfix"></div>
+    </div>
+    {{/foreach}}
+</div>
+
+<div class="jum-choose">
+    <!--全局变量-->
+    <img class="center-block" src="{{$tse_img}}i-choose_title.png" alt="选择优客的5项理由" />
+    <div class="i-choose-list">
+        <div class="box">
+            <img class="center-block" width="90" height="90" src="{{$tse_img}}_blank.gif" data-original="{{$tse_img}}i-choose_01.png" alt="无中介费 网上看房 拎包入住" />
+            <h4 class="title">无中介费</h4>
+            <p>网上看房 拎包入住</p>
+        </div>
+        <div class="box">
+            <img class="center-block" width="90" height="90" src="{{$tse_img}}_blank.gif" data-original="{{$tse_img}}i-choose_02.png" alt="年轻人 生活品质" />
+            <h4 class="title">年轻人</h4>
+            <p>我们追求 生活品质</p>
+        </div>
+        <div class="box">
+            <img class="center-block" width="90" height="90" src="{{$tse_img}}_blank.gif" data-original="{{$tse_img}}i-choose_03.png" alt="真实房源 凭证齐全 一房一价" />
+            <h4 class="title">真实房源</h4>
+            <p>凭证齐全 一房一价</p>
+        </div>
+        <div class="box">
+            <img class="center-block" width="90" height="90" src="{{$tse_img}}_blank.gif" data-original="{{$tse_img}}i-choose_05.png" alt="光纤网络 免费wifi" />
+            <h4 class="title">免费wifi</h4>
+            <p>光纤网络 基情LOL</p>
+        </div>
+        <div class="box">
+            <img class="center-block" width="90" height="90" src="{{$tse_img}}_blank.gif" data-original="{{$tse_img}}i-choose_04.png" alt="提供维修保洁等各类管理服务" />
+            <h4 class="title">维修保洁</h4>
+            <p>提供各类管理服务</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div class="i-custom">
+    <div class="custom-box">
+        <!--底部广告位1-->
+        <a href="/aboutus/join/" target="_blank"><img src="http://images.uoko.com/Upload/ShareImages/2015-12-31/07018c73-4a6f-46ff-9593-8846b8d97548.jpg" width="525" height="300" alt="优客逸家招聘精英人才" /></a>
+    </div>
+    <div class="custom-box">
+        <!--底部广告位2-->
+        <a href="/special/corporate/" target="_blank"><img src="http://images.uoko.com/Upload/ShareImages/2014-12-31/062240a2-a477-409e-a6c9-4477743448b8.jpg" width="525" height="150" alt="优客逸家企业客户" /></a>
+
+        <!--底部广告位3-->
+        <a href="/special/feature/14/02/index.aspx" target="_blank"><img src="http://images.uoko.com/Upload/ShareImages/2016-05-27/38965bb6-4e43-460a-b102-aaf8b31f2639.jpg" width="525" height="150" alt="搬家赠送搬家券" /></a>
+    </div>
+
+    <div class="custom-box">
+        <div class="playVideo" data-url="uoko2015.flv" id="i-media" title="点击视频播放"> <img src="{{$tse_img}}i-custom_06.jpg" width="525" height="330" alt="优客宣传视频" /> </div>
+    </div>
+    <div class="custom-box">
+        <a href="http://www.uoko.com" target="_blank"><img src="http://images.uoko.com/Upload/ShareImages/2014-12-31/2a5af010-dc19-49ed-931d-9f01e671b55a.jpg" width="525" height="330" alt="优客逸家" /></a>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<div class="i-record">
+    <div class="container">
+
+        <img src="{{$tse_img}}i-show-cd.png" width="1070" alt="优客逸家品质服务" />
+    </div>
+</div>
+<div class="clearfix"></div>
+<script type="text/javascript">
+    var _py = _py || [];
+    _py.push(['a', '_9..NtyJOxoLuOT37thIPb_NOP']);
+    _py.push(['domain', 'stats.ipinyou.com']);
+    _py.push(['e', '']);
+    -function (d) {
+        var s = d.createElement('script'),
+                e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e),
+                f = 'https:' == location.protocol;
+        s.src = (f ? 'https' : 'http') + '://' + (f ? 'fm.ipinyou.com' : 'fm.p0y.cn') + '/j/adv.js';
+    }(document);
+</script>
+<noscript><img src=" " style="display:none;" /></noscript>
+
+{{include file='share/footer.html'}}
+</body>
+
+</html>

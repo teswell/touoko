@@ -1,0 +1,488 @@
+[ 2016-09-23T09:41:02+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0310s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0360s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0240s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0230s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0250s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T09:41:05+08:00 ] 127.0.0.1 /index/member/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\bec384c8b15bdfca170d7226f9c2317d5af85638.file.login.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./Application/Index/View\Member\login.html"  on line 28 "&lt;input class=&quot;signUp_password step&quot; data-val=&quot;true&quot; data-val-regex=&quot;登录密码错误&quot; data-val-regex-pattern=&quot;^[@A-Za-z0-9\!\#\$\%\^\&amp;amp;\*\.\~]{6,32}$&quot; data-val-required=&quot;密码不能为空&quot; id=&quot;Password&quot; name=&quot;Password&quot; placeholder=&quot;密码&quot; tabindex=&quot;2&quot; type=&quot;password&quot; /&gt;"  - Unexpected ",", expected one of: "}" , " "
+
+[ 2016-09-23T09:43:10+08:00 ] 127.0.0.1 /index/member/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\bec384c8b15bdfca170d7226f9c2317d5af85638.file.login.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\bec384c8b15bdfca170d7226f9c2317d5af85638.file.login.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T09:50:47+08:00 ] 127.0.0.1 /index/member/login/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T09:50:49+08:00 ] 127.0.0.1 /index/member/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\e552d253dd630969fe22050b7d6ee799b354396f.file.forget.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+ERR: Syntax Error in template "./Application/Index/View\Member\forget.html"  on line 40 "&lt;input class=&quot;form-control act-b&quot; data-val=&quot;true&quot; data-val-regex=&quot;密码不符合规则&quot; data-val-regex-pattern=&quot;^[@A-Za-z0-9\!\#\$\%\^\&amp;amp;\*\.\~]{6,32}$&quot; data-val-required=&quot;密码不能为空&quot; id=&quot;Password&quot; name=&quot;Password&quot; type=&quot;password&quot; /&gt;"  - Unexpected ",", expected one of: "}" , " "
+
+[ 2016-09-23T09:51:10+08:00 ] 127.0.0.1 /index/member/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\e552d253dd630969fe22050b7d6ee799b354396f.file.forget.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\e552d253dd630969fe22050b7d6ee799b354396f.file.forget.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T09:51:56+08:00 ] 127.0.0.1 /index/member/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T09:52:24+08:00 ] 127.0.0.1 /index/member/forget
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T10:30:49+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:30:52+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:31:06+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:32:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:32:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:32:15+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:32:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2016-09-23T10:32:56+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0050s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T13:52:29+08:00 ] 127.0.0.1 /index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.1130s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0770s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0260s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.179010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.018001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-09-23T13:52:35+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T13:52:39+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.2920s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0560s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T13:52:54+08:00 ] 127.0.0.1 /index/rent/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 581310008 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 574010028 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 562610016 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560010050 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 555610014 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T14:11:50+08:00 ] 127.0.0.1 /index/member/register/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T14:11:50+08:00 ] 127.0.0.1 /index.php/index/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T14:15:40+08:00 ] 127.0.0.1 /index/member/register/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T14:15:40+08:00 ] 127.0.0.1 /index.php/index/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T14:23:49+08:00 ] 127.0.0.1 /index/member/register/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T14:23:49+08:00 ] 127.0.0.1 /index.php/index/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-23T14:23:54+08:00 ] 127.0.0.1 /index/member/register/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-23T14:23:54+08:00 ] 127.0.0.1 /index.php/index/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

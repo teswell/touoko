@@ -1,0 +1,2213 @@
+[ 2016-09-09T09:38:52+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0740s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0580s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0300s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T09:39:15+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T09:39:35+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T09:50:11+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+
+[ 2016-09-09T09:52:20+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+
+[ 2016-09-09T09:53:05+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+
+[ 2016-09-09T09:53:08+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+
+[ 2016-09-09T09:53:25+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.308017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.308017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T09:55:57+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-09T09:56:36+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+
+[ 2016-09-09T09:57:15+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T09:57:50+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:01:12+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:01:23+08:00 ] 127.0.0.1 /index/rent/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 581310008 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 574010028 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 562610016 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560010050 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 555610014 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:01:28+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:08:42+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:15:41+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:23:57+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:24:05+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:24:16+08:00 ] 127.0.0.1 /index/rent/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 581310008 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 574010028 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 562610016 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560010050 )  [ RunTime:0.0120s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0060s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 555610014 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:24:21+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:41:09+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:41:40+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:45:07+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:46:40+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0070s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:47:11+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:48:06+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:50:26+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:50:37+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:54:36+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:54:48+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:55:18+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:55:23+08:00 ] 127.0.0.1 /index/rent/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 581310008 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 574010028 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 562610016 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560010050 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 555610014 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:55:28+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:59:19+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T10:59:27+08:00 ] 127.0.0.1 /index/rent/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 581310008 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 574010028 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 562610016 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560010050 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 555610014 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T10:59:32+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T11:01:31+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.148009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T11:01:37+08:00 ] 127.0.0.1 /index/rent/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 581310008 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 574010028 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 562610016 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560010050 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 555610014 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T11:01:42+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T11:08:36+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./Application/Index/View\Rent\index.html"  on line 5 "{{include:share/header_url.html}}"  - Unexpected ":", expected one of: "}" , " "
+
+[ 2016-09-09T11:09:27+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\5f8d80b6dd1c75e33001b1a061e8e25a2d1c58fb.file.header_url.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\5f8d80b6dd1c75e33001b1a061e8e25a2d1c58fb.file.header_url.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.153009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T11:13:19+08:00 ] 127.0.0.1 /index/rent/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T13:46:40+08:00 ] 127.0.0.1 /index/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0070s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\ab63dc631d4a88a0b2251a51b9b7e1af5206967e.file.header.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\ab63dc631d4a88a0b2251a51b9b7e1af5206967e.file.header.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T13:47:01+08:00 ] 127.0.0.1 /index/rent//index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.190011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T13:48:28+08:00 ] 127.0.0.1 /index/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Index/View\share\footer F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+NOTIC: [2] filemtime(): stat failed for share\footer F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 315 行.
+ERR: Unable to load template file 'share/footer' in 'Index/index.html'
+
+[ 2016-09-09T13:48:44+08:00 ] 127.0.0.1 /index/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0060s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\2f4b717152953ea3da32c22e352a4afc876f0d5f.file.footer.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\2f4b717152953ea3da32c22e352a4afc876f0d5f.file.footer.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T13:54:46+08:00 ] 127.0.0.1 /index/index/index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0060s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:54:49+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0030s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:55:42+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./Application/Index/View\Rent\index.html"  on line 189 "{{include file='share/footer.html'}}"  - Unexpected "share", expected one of: "}" , " "
+
+[ 2016-09-09T13:55:55+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:56:37+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:56:40+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:56:46+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:56:48+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T13:57:32+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T13:58:56+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T13:58:59+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:00:18+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:01:13+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:28:22+08:00 ] 127.0.0.1 /index/rent/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\e59fb9af0bc27981cd74cf383b7a04638f52a8a7.file.detail.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\e59fb9af0bc27981cd74cf383b7a04638f52a8a7.file.detail.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/css/Imagefocus.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:statics
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/member/headpic/small/100x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/css/Imagefocus.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:statics
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/member/headpic/small/pic-boy-01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/js/p.mini.js?v=20141230
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:statics
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/member/headpic/small/pic-girl-02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/product/mushroom.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/footer-weixin-cd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/member/headpic/small/100x100.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:28:23+08:00 ] 127.0.0.1 /index/rent/statics/img/member/headpic/small/pic-boy-01.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T14:28:25+08:00 ] 127.0.0.1 /index/rent/statics/img/product/probox-why.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-09T14:28:25+08:00 ] 127.0.0.1 /index/rent/statics/img/product/probox-setup.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-09T14:51:08+08:00 ] 127.0.0.1 /index/rent/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.185011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.185011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-09T15:22:09+08:00 ] 127.0.0.1 /index/rent/detail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.210012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.210012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

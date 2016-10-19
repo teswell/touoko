@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+{{include file='comm/upload_js.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/ad/add" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>广告标题：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="ad[title]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>所属广告位：</th>
+                            <td>
+                                <select name="ad[adspace_id]">
+                                    <option value=" ">请选择</option>
+                                    {{foreach $adspace as $key=>$val}}
+                                    <option value="{{$val.id}}">{{$val.name}}</option>
+                                    {{/foreach}}
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>跳转URL：</th>
+                            <td>
+                                <input class="common-text required" name="ad[url]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>排序：</th>
+                            <td>
+                                <input class="common-text required" name="ad[sort]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>上传图片：</th>
+                            <td>
+                                <div id="preview">
+                                    <img id="imghead" width=100% height=auto border=0 src="">
+                                </div>
+                                <input class="common-text required" name="img" size="50" value="" type="file" onchange="previewImage(this)">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>广告背景颜色：</th>
+                            <td>
+                                <input class="common-text required" name="ad[back_color]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>是否激活：</th>
+                            <td>
+                                <input name="ad[status]" value="1" type="radio" checked>是 &nbsp;&nbsp;
+                                <input name="ad[status]" value="-1" type="radio">否
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

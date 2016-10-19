@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/menu/edit" method="post" id="myform" name="myform">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>菜单名称：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="menu[name]" size="50" value="{{$info.name}}" type="text">
+                                <input type="hidden" name="menu[id]" value="{{$info.id}}"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="120"><i class="require-red">*</i>父级菜单：</th>
+                            <td>
+                                <select name="menu[parent_id]" id="catid" class="required">
+                                    <option value="">请选择</option>
+                                    <option value="0" {{if $info.parent_id==0}}selected{{/if}}>无</option>
+                                    {{foreach $menu as $key=>$val}}
+                                    <option value="{{$val.id}}" {{if $val.id==$info.parent_id}}selected{{/if}}>{{$val.name}}</option>
+                                    {{/foreach}}
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>url：</th>
+                            <td><input class="common-text" name="menu[url]" size="50" value="{{$info.url}}" type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>排序：</th>
+                            <td><input class="common-text" name="menu[sort]" size="50" value="{{$info.sort}}" type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>是否激活：</th>
+                            <td>
+                                <input name="menu[status]" value="1" type="radio" {{if $info.status==1}}checked{{/if}}>是 &nbsp;&nbsp;
+                                <input name="menu[status]" value="-1" type="radio" {{if $info.status==-1}}checked{{/if}}>否
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

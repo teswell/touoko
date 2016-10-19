@@ -1,0 +1,646 @@
+[ 2016-09-08T11:07:45+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T12:14:15+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0240s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0070s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./Application/Index/View\Index\index.html"  on line 224 "{{foreach}}" missing "from" attribute
+
+[ 2016-09-08T12:14:37+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 314 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.162009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.162009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T12:15:21+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ad` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `ad` WHERE ( `status` = 1 AND `adspace_id` = 1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`title`,`img`,`address` FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0130s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-08T16:15:16+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:Rent
+
+[ 2016-09-08T16:15:47+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Rent
+
+[ 2016-09-08T16:17:48+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.241014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.241014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:16:45+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0950s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0410s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0700s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+ERR: Syntax Error in template "./Application/Index/View\Rent\index.html"  on line 326 "{{foreach}}" missing "from" attribute
+
+[ 2016-09-08T17:16:56+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:18:39+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.160009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:20:13+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:20:41+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+
+[ 2016-09-08T17:20:53+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+
+[ 2016-09-08T17:21:27+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-09-08T17:24:49+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:25:03+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 382 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 384 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:25:30+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0220s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+NOTIC: [8] Undefined index: min_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 386 行.
+NOTIC: [8] Undefined index: max_price F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 388 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-08T17:26:05+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+
+[ 2016-09-08T17:26:47+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+
+[ 2016-09-08T17:27:03+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+
+[ 2016-09-08T17:27:19+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

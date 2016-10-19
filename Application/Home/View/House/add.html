@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+{{include file='comm/upload_js.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/house/add" method="post" id="myform" name="myform" enctype="multipart/form-data">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>房子标题：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="house[title]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>所属地区：</th>
+                            <td>
+                                <select name="province">
+                                    <option value=" ">请选择</option>
+                                    {{foreach $province as $key=>$val}}
+                                    <option value="{{$val.provinceid}}">{{$val.province}}</option>
+                                    {{/foreach}}
+                                </select>
+                                <select name="city"></select>
+                                <select name="house[area_id]"></select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>房子类型：</th>
+                            <td>
+                                <input type="checkbox" name="house[type][]" value="1"/>标间 &nbsp;
+                                <input type="checkbox" name="house[type][]" value="2"/>主卧带独卫 &nbsp;
+                                <input type="checkbox" name="house[type][]" value="3"/>标间套一 &nbsp;
+                                <input type="checkbox" name="house[type][]" value="4"/>整租 &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>详细地址：</th>
+                            <td>
+                                <input class="common-text required"  name="house[address]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>上传封面图片：</th>
+                            <td>
+                                <div id="preview">
+                                    <img id="imghead" width=100% height=auto border=0 src="">
+                                </div>
+                                <input class="common-text required" name="img" size="50" value="" type="file" onchange="previewImage(this)">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>附近商圈：</th>
+                            <td>
+                                <input class="common-text required"  name="house[business]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>适合人群：</th>
+                            <td>
+                                <input class="common-text required"  name="house[crowd]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>出行地铁：</th>
+                            <td>
+                                <input class="common-text required"  name="house[train]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>公交：</th>
+                            <td>
+                                <input class="common-text required"  name="house[bus]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>超市：</th>
+                            <td>
+                                <input class="common-text required"  name="house[market]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>菜市：</th>
+                            <td>
+                                <input class="common-text required"  name="house[food_market]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>银行：</th>
+                            <td>
+                                <input class="common-text required"  name="house[bank]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>餐馆：</th>
+                            <td>
+                                <input class="common-text required"  name="house[restaurant]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>医院：</th>
+                            <td>
+                                <input class="common-text required"  name="house[hospital]" size="50" value="" type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>是否激活：</th>
+                            <td>
+                                <input class="common-text required"  name="house[status]" value="1" type="radio" checked>激活 &nbsp;
+                                <input class="common-text required"  name="house[status]" value="-1" type="radio">未激活 &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    //省 to 市
+    $("select[name='province']").change(function(){
+        var id = $(this).find("option:selected").val();
+        $.ajax({
+            type: "POST",
+            url: "/home/Ath/threeAjax",
+            data: { 'provinceid':id },
+            dataType: "json",
+            success: function(data){
+                if (data.status == 1) {
+                    $("select[name='city'] option").remove();
+                    var html = '<option value=" ">请选择</option>';
+                    for (var i=0;i<data.list.length;i++) {
+                        html += '<option value='+data.list[i].cityid+'>'+data.list[i].city+'</option>>';
+                    }
+                    $("select[name='city']").append(html);
+                }
+            }
+        });
+    });
+
+    $("select[name='city']").change(function(){
+        var id = $(this).find("option:selected").val();
+        $.ajax({
+            type: "POST",
+            url: "/home/Ath/threeAjax",
+            data: { 'cityid':id },
+            dataType: "json",
+            success: function(data){
+                if (data.status == 1) {
+                    $("select[name='house[area_id]'] option").remove();
+                    var html = '<option value=" ">请选择</option>';
+                    for (var i=0;i<data.list.length;i++) {
+                        html += '<option value='+data.list[i].areaid+'>'+data.list[i].area+'</option>>';
+                    }
+                    $("select[name='house[area_id]']").append(html);
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

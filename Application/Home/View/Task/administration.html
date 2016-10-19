@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/task/administration" method="post" id="myform" name="myform">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>预约人姓名：</th>
+                            <td>
+                                {{$info.name}}
+                                <input type="hidden" name="administration[id]" value="{{$info.id}}"/>
+                                <input type="hidden" name="log[task_id]" value="{{$info.id}}"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>预约人电话：</th>
+                            <td>
+                                {{$info.mobile}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>预约人性别：</th>
+                            <td>
+                                {{if $info.sex == 1}}男 {{elseif $info.sex == 2}}女{{/if}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>入住人数：</th>
+                            <td>
+                                {{$info.number}}人
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>预约的房子：</th>
+                            <td>
+                                {{$info.house_title}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>任务生成时间：</th>
+                            <td>
+                                {{$info.submit_time|date_format:'%Y-%m-%d %H:%M:%S'}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="120"><i class="require-red">*</i>负责管家：</th>
+                            <td>
+                                <select name="administration[finish_user]" class="required">
+                                    <option value="">请选择</option>
+                                    {{foreach $keeper as $key=>$val}}
+                                    <option value="{{$val.id}}" {{if $val.id==$info.finish_user}}selected{{/if}}>{{$val.username}}</option>
+                                    {{/foreach}}
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>备注：</th>
+                            <td><textarea name="log[remark]" style="width: 445px;height: 152px"></textarea></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+        <div>
+            <table width="100%" style="border-collapse:collapse; font-family: '微软雅黑'"  border="1">
+                <tr>
+                    <th colspan="4" align=center style="height: 64px"><font size="5">任务的操作日志记录</font></th>
+                </tr>
+                <tr>
+                    <th>类型</th><th>操作人</th><th>操作时间</th><th>备注</th>
+                </tr>
+                {{foreach $log as $key=>$val}}
+                <tr>
+                    <td align=center>
+                        {{if $val.type == 1}}重分配管家
+                        {{elseif $val.type == 2}}带客户看房完成
+                        {{elseif $val.type == -1}}暂不做处理
+                        {{/if}}
+                    </td>
+                    <td align=center>{{$val.user}}</td>
+                    <td align=center>{{$val.time|date_format:'%Y-%m-%d %H:%M:%S'}}</td>
+                    <td align=center>{{$val.remark}}</td>
+                </tr>
+                {{/foreach}}
+            </table>
+        </div>
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

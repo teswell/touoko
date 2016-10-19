@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <div class="short-wrap">
+                    <a href="/home/menu/add"><i class="icon-font"></i>添加菜单</a>
+                </div>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="#" method="post">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>菜单名称</th>
+                            <th>排序</th>
+                            <th>链接URL</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        {{foreach $list as $key=>$row}}
+                        <tr>
+                            <td class= "first-cell"><a href="index/id/{{$row.id}}">{$row.name}</a></td>
+                            <td class= "first-cell">{$row.sort}</td>
+                            <td class= "first-cell">{$row.url}</td>
+                            <td class= "first-cell">{{if $row.status==1}}激活{{elseif $row.status==-1}}未激活{{/if}}</td>
+                            <td align= "center">
+                                <a href= "/home/menu/edit/id/{{$row.id}}" title= "编辑"> 编辑 </a> |
+                                <a class="ajax_delete" href= "javascript:void(0)" title="移除" onclick="remove_delete({{$row.id}},'/home/menu/delete')"> 移除 </a>
+                            </td>
+                        </tr>
+                        {{/foreach}}
+                    </table>
+                </form>
+                <div class="list-page">{{$page}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

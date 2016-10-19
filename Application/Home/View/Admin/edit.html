@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/admin/edit" method="post" id="myform" name="myform">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>登录账号：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="admin[username]" size="50" value="{{$info.username}}" type="text">
+                                <input type="hidden" name="admin[id]" value="{{$info.id}}"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>登录密码：</th>
+                            <td>
+                                <input class="common-text required" name="admin[password]" size="50" value="" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th width="120"><i class="require-red">*</i>职位：</th>
+                            <td>
+                                <select name="admin[position_id]" id="catid" class="required">
+                                    <option value="">请选择</option>
+                                    <option value="-1" {{if $info.position_id == -1}}selected{{/if}}>超级管理员</option>
+                                    {{foreach $position as $key=>$val}}
+                                    <option value="{{$val.id}}" {{if $info.position_id == $val.id}}selected{{/if}}>{{$val.name}}</option>
+                                    {{/foreach}}
+                                </select>
+                            </td>
+                        </tr>
+                        {{if $isArea == 1}}
+                        <tr>
+                            <th width="120"><i class="require-red">*</i>负责区域：</th>
+                            <td>
+                                <select name="province">
+                                    <option value=" ">请选择</option>
+                                    {{foreach $province as $key=>$val}}
+                                    <option value="{{$val.provinceid}}" {{if $provinceid==$val.provinceid}}selected{{/if}}>{{$val.province}}</option>
+                                    {{/foreach}}
+                                </select>
+                                <select name="city">
+                                    {{foreach $city as $key=>$val}}
+                                    <option value="{{$val.cityid}}" {{if $cityid==$val.cityid}}selected{{/if}}>{{$val.city}}</option>
+                                    {{/foreach}}
+                                </select>
+                                <select name="house[area_id]">
+                                    {{foreach $area as $key=>$val}}
+                                    <option value="{{$val.areaid}}" {{if $areaid==$val.areaid}}selected{{/if}}>{{$val.area}}</option>
+                                    {{/foreach}}
+                                </select>
+                            </td>
+                        </tr>
+                        {{/if}}
+                        <tr>
+                            <th>是否激活：</th>
+                            <td>
+                                <input name="admin[status]" value="1" type="radio" {{if $info.status ==1}}checked{{/if}}/>是 &nbsp;&nbsp;
+                                <input name="admin[status]" value="-1" type="radio" {{if $info.status ==-1}}checked{{/if}}/>否
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

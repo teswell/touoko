@@ -1,0 +1,131 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>忘记密码 - 优客逸家</title>
+    <link href="{{$tse_css}}common.min.css" rel="stylesheet"/>
+    <link href="{{$tse_css}}Member.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="bk10"></div>
+<div class="container">
+
+    <div class="act-up">
+        <div class="act-top">
+            <a href="/" class="actTop-logo"></a>
+            <div class="actTop-bg"></div>
+        </div>
+        <form action="/index/member/forget" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="brOQC2PHpez2tsRwg3kMg5iFtAHQ7ZLcgxgE2YBwOBGEn3xc0DTSYQT8MAxeqN7PBSoKycBK10vWcxqj-DH-1YUzooEBEqZNj75JxPkITs41" />                <div class="act-main">
+            <div class="form-group">
+                <label for="" class="act-na">手机号</label>
+                <div class="col">
+                    <input class="form-control act-b" data-val="true" data-val-regex="手机号码错误" data-val-regex-pattern="^1[34578]\d{9}$" data-val-remote="手机号码不存在" data-val-remote-additionalfields="*.Phone" data-val-remote-url="/member_check/hasusername" data-val-required="手机号不能为空" id="Phone" name="Phone" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="act-na">验证码</label>
+                <div class="col">
+                    <input class="act-number act-b" data-val="true" data-val-length="验证码错误" data-val-length-max="6" data-val-length-min="6" data-val-required="验证码不能为空" id="SmsCode" name="SmsCode" type="text" value="" />
+                    <span class="field-validation-valid" data-valmsg-for="SmsCode" data-valmsg-replace="true"></span>
+                    <button type="button" id="smscode_send" class="act-send">发送手机验证码</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="act-na">密码</label>
+                <div class="col">
+                    <input class="form-control act-b" data-val="true" data-val-regex="密码不符合规则" data-val-required="密码不能为空" id="Password" name="Password" type="password" />
+                    <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="" class="act-na">密码确认</label>
+                <div class="col">
+                    <input class="form-control act-b" data-val="true" data-val-equalto="两次密码不一致" data-val-equalto-other="*.Password" id="ConfirmPassword" name="ConfirmPassword" type="password" />
+                    <span class="field-validation-valid" data-valmsg-for="ConfirmPassword" data-valmsg-replace="true"></span>
+                </div>
+            </div>
+
+        </div>
+            <div class="act--footer">
+                <input type="submit" class="act--btn" value="激 活" />
+                <a href="/member/login/" class="act--btn">返回</a>
+            </div>
+        </form></div>
+
+    <div class="copyright-menber">
+        <p>租房热线：400-000-4170 </p>
+        <p>Copyright © 2012-2015 uoko.com ,All Right Reserved 蜀ICP备13015638号-1</p>
+    </div>
+</div>
+<div class="bk30"></div>
+<script src="{{$tse_js}}jquery-1.9.1.js"></script>
+<script src="{{$tse_js}}base.min.js"></script>
+<script src="{{$tse_js}}common.js"></script>
+<script src="{{$tse_js}}g.js"></script>
+
+<script src="{{$tse_js}}jquery.validate.js"></script>
+<script src="{{$tse_js}}jquery.validate.unobtrusive.js"></script>
+<script src="{{$tse_js}}Member.js"></script>
+
+
+<script type="text/javascript">
+    var sec =parseInt('0');
+    var smscode_send_tmr;
+    $(function () {
+        if (sec > 0) {
+            smscode_send_tmr = setInterval("SmscodeCountdown()", 1000);
+        }
+
+        $("#smscode_send").click(function () {
+            $("#Phone").trigger("blur");
+            if ($("#Phone").not(".valid").length == 1) {
+                var msg = $("span[for='Phone']").html();
+                if (msg == undefined) msg = "手机号不能为空";
+                alert(msg);
+                return;
+            }
+            if (sec == 0) {
+                if (smscode_send_tmr != undefined) {
+                    clearInterval(smscode_send_tmr);
+                }
+                $("#smscode_send").attr("disabled", "disabled");
+                $.ajax({
+                    type: "POST",
+                    url: "/member/activation_smscode",
+                    data: JSON.stringify({ 'phone': $("#Phone").val() }),
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function (data) {
+                        sec = data.countdown;
+                        if (sec == undefined || sec == -1) {
+                            alert(data.message);
+                        } else {
+                            smscode_send_tmr = setInterval("SmscodeCountdown()", 1000);
+                        }
+                        $("#smscode_send").removeAttr("disabled");
+                    }
+                });
+            }
+        });
+    });
+
+    function SmscodeCountdown() {
+        if (sec == 0) {
+            clearInterval(smscode_send_tmr);
+            $("#smscode_send").html("发送手机验证码");
+
+        } else {
+            $("#smscode_send").html("请" + sec-- + "秒之后再试");
+        }
+
+    }
+</script>
+
+</body>
+</html>
+
+

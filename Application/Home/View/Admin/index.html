@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <div class="short-wrap">
+                    <a href="/home/admin/add"><i class="icon-font"></i>添加账号</a>
+                </div>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="#" method="post">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>账号</th>
+                            <th>职位</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                        {{foreach $list as $key=>$row}}
+                        <tr>
+                            <td class= "first-cell">{$row.id}</td>
+                            <td class= "first-cell">{$row.username}</td>
+                            <td class= "first-cell">{$row.position}</td>
+                            <td class= "first-cell">{{if $row.status==1}}激活{{elseif $row.status==-1}}未激活{{/if}}</td>
+                            <td align= "center">
+                                {{if $row.id != 1}}
+                                <a href= "/home/admin/edit/id/{{$row.id}}" title= "编辑"> 编辑 </a> |
+                                <a class="ajax_delete" href= "javascript:void(0)" title="移除" onclick="remove_delete({{$row.id}},'/home/admin/delete')"> 移除 </a>
+                                {{/if}}
+                            </td>
+                        </tr>
+                        {{/foreach}}
+                    </table>
+                </form>
+                <div class="list-page">{{$page}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

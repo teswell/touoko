@@ -1,0 +1,588 @@
+[ 2016-08-31T11:23:38+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 39 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 39 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 42 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 42 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 45 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 45 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 48 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 48 行.
+NOTIC: [8] Undefined index: tse_css F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 52 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 52 行.
+NOTIC: [8] Undefined index: tse_css F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 59 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 64 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 64 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 68 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 68 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 77 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 80 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 92 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 92 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 135 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 135 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 200 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 200 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 245 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 245 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 252 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 252 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 259 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 259 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 266 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 266 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 273 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 273 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 280 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 280 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 312 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 332 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 332 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 352 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 352 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 372 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 372 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 392 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 392 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 412 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 412 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 432 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 432 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 452 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 452 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 472 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 472 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 494 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 494 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 499 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 499 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 501 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 501 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 508 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 508 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 510 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 510 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 517 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 517 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 519 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 519 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 526 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 526 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 528 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 528 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 535 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 535 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 537 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 537 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 561 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 561 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 573 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 573 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 597 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 597 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 610 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 610 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 617 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 617 行.
+NOTIC: [8] Undefined index: tse_img F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 728 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 728 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 749 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 749 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 752 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 752 行.
+NOTIC: [8] Undefined index: tse_js F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 755 行.
+NOTIC: [8] Trying to get property of non-object F:\tsewell\Application\Runtime\Cache\114b671a9aacd43fc2c3e063330dd75fee80711a.file.index.html.php 第 755 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:38+08:00 ] 127.0.0.1 /index/index/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:jquery-1.9.1.js
+
+[ 2016-08-31T11:23:38+08:00 ] 127.0.0.1 /index/index/g.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:g.js
+
+[ 2016-08-31T11:23:38+08:00 ] 127.0.0.1 /index/index/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:jquery.lazyload.min.js
+
+[ 2016-08-31T11:23:38+08:00 ] 127.0.0.1 /index/index/datouwang.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:datouwang.js
+
+[ 2016-08-31T11:23:38+08:00 ] 127.0.0.1 /index/index/home.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:home.min.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/loading-jd.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/i-choose_title.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/_blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/i-custom_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/i-show-cd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/footer-setup2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/footer-weixin-app.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/footer-weixin-cd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/footer-weixin-cd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/common.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:common.min.css
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/city.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:city.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:common.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/datouwang.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:datouwang.min.css
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/base.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:base.min.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/common.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:common.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/g.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:g.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/common.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:common.min.css
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/datouwang.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:datouwang.min.css
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/city.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:city.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/p.mini.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:p.mini.js
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/_blank.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/i-custom_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/loading.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:39+08:00 ] 127.0.0.1 /index/index/loading-jd.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/footer-weixin-app.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/footer-weixin-cd.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/footer-setup2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/i-show-cd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/footer-weixin-cd.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/jquery.lazyload.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:jquery.lazyload.min.js
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/datouwang.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:datouwang.js
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/home.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:home.min.js
+
+[ 2016-08-31T11:23:40+08:00 ] 127.0.0.1 /index/index/i-choose_title.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:23:41+08:00 ] 127.0.0.1 /index/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:23:46+08:00 ] 127.0.0.1 /index/index/jquery-1.9.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:jquery-1.9.1.js
+
+[ 2016-08-31T11:24:07+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:24:10+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:24:49+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:24:50+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:24:51+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:09+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:26:09+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:26:26+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:26:27+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:40+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:41+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:51+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:52+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:26:52+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:52+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-31T11:26:52+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:26:53+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:27:22+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-31T11:44:58+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-31T11:45:46+08:00 ] 127.0.0.1 /index/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

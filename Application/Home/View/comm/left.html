@@ -1,0 +1,31 @@
+<div class="sidebar-wrap">
+    <div class="sidebar-title">
+        <h1>菜单</h1>
+    </div>
+    <div class="sidebar-content">
+        <ul class="sidebar-list">
+            {{foreach $left_menu as $key=>$val}}
+            <li>
+                <a href="javascript:void(0);" onclick="getmenu({{$val.id}})"><i class="icon-font">&#xe003;</i>{{$val.name}}</a>
+                <ul class="sub-menu-{{$val.id}}" style="display: none">
+                    {{if !empty($val.child)}}
+                    {{foreach $val.child as $k=>$v}}
+                    <li><a href="{{$v.url}}"><i class="icon-font">&#xe008;</i>{{$v.name}}</a></li>
+                    {{/foreach}}
+                    {{/if}}
+                </ul>
+            </li>
+            {{/foreach}}
+        </ul>
+    </div>
+</div>
+<script>
+    function getmenu(id) {
+        if ( $(".sub-menu-"+id).css("display") == 'none' ) {
+            $(".sub-menu-"+id).css("display","block");
+        }else {
+            $(".sub-menu-"+id).css("display","none");
+        }
+
+    }
+</script>

@@ -1,0 +1,3056 @@
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /home/menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:54+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:31:55+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:00+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:05+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:06+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:06+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:06+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:46+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:47+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:32:52+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:45:24+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:25+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:45:25+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:46:16+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: /Home/Index/login.html F:\tsewell\Application\Home\Controller\TseController.class.php 第 120 行.
+
+[ 2016-10-13T11:46:27+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\TseController.class.php 第 120 行.
+NOTIC: [8] Undefined variable: Array F:\tsewell\Application\Home\Controller\TseController.class.php 第 120 行.
+
+[ 2016-10-13T11:46:28+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\TseController.class.php 第 120 行.
+NOTIC: [8] Undefined variable: Array F:\tsewell\Application\Home\Controller\TseController.class.php 第 120 行.
+
+[ 2016-10-13T11:46:38+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:46:48+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-10-13T11:47:11+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username F:\tsewell\Application\Home\Controller\TseController.class.php 第 161 行.
+NOTIC: [8] Undefined index: login F:\tsewell\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:47:11+08:00 ] 127.0.0.1 /index.php/Home/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:47:49+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username F:\tsewell\Application\Home\Controller\TseController.class.php 第 160 行.
+NOTIC: [8] Undefined index: login F:\tsewell\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:47:49+08:00 ] 127.0.0.1 /index.php/Home/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:47:51+08:00 ] 127.0.0.1 /Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: username F:\tsewell\Application\Home\Controller\TseController.class.php 第 160 行.
+NOTIC: [8] Undefined index: login F:\tsewell\Application\Home\Controller\IndexController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:47:51+08:00 ] 127.0.0.1 /index.php/Home/Ath/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T11:48:04+08:00 ] 127.0.0.1 /Home/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: username F:\tsewell\Application\Home\Controller\TseController.class.php 第 160 行.
+SQL: SELECT * FROM `admin` WHERE `username` = 'tsewell' AND `password` = '098b04dd2342b61c8450f54023665809' AND `status` = 1  [ RunTime:0.0000s ]
+
+[ 2016-10-13T11:48:08+08:00 ] 127.0.0.1 /Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:48:36+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0270s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\8f99853346854805ab509e437ad8d435d69273e0.file.index.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\8f99853346854805ab509e437ad8d435d69273e0.file.index.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T11:48:39+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\1e544121d76102f2e7cb7e14fb89b1594ae61b4e.file.add.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\1e544121d76102f2e7cb7e14fb89b1594ae61b4e.file.add.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T12:10:30+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T12:10:34+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 120000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T12:10:36+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 120200 )  [ RunTime:0.0770s ]
+
+[ 2016-10-13T12:10:39+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 310000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T12:11:00+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 1 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T12:11:01+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T12:11:04+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 1 )  [ RunTime:0.0020s ]
+
+[ 2016-10-13T13:42:38+08:00 ] 127.0.0.1 /home/admin/edit/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` WHERE ( `id` = 4 ) LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\23dd898c54475d32671178edebed70026906f562.file.edit.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\23dd898c54475d32671178edebed70026906f562.file.edit.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T13:54:39+08:00 ] 127.0.0.1 /home/admin/edit/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `father` FROM `area` WHERE ( `areaid` =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `father` FROM `area` WHERE ( `areaid` =  ) LIMIT 1  
+
+[ 2016-10-13T13:54:56+08:00 ] 127.0.0.1 /home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0170s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T13:55:00+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T13:55:20+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T13:55:22+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T13:55:29+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510500 )  [ RunTime:0.0030s ]
+
+[ 2016-10-13T13:55:31+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0050s ]
+
+[ 2016-10-13T13:57:01+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T13:57:12+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T13:57:19+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T13:57:53+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: position F:\tsewell\Application\Home\Controller\AdminController.class.php 第 52 行.
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('roy','58dac748153cf2cf15b17eb6f7363f0f','5','1','1','1476338273') [ RunTime:0.1010s ]
+
+[ 2016-10-13T13:57:54+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T13:59:10+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T13:59:12+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T13:59:32+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`status`,`creat_time`,`area_id`) VALUES ('roy','58dac748153cf2cf15b17eb6f7363f0f','0','1','1476338372','1') [ RunTime:0.0480s ]
+
+[ 2016-10-13T13:59:33+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: position F:\tsewell\Application\Runtime\Cache\8f99853346854805ab509e437ad8d435d69273e0.file.index.html.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:00:14+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:00:16+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T14:00:30+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:00:33+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0070s ]
+
+[ 2016-10-13T14:00:39+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('roy','58dac748153cf2cf15b17eb6f7363f0f','5','510106','1','1476338439') [ RunTime:0.0520s ]
+
+[ 2016-10-13T14:00:40+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T14:01:12+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:01:33+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:01:36+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T14:01:45+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('yjjmpp','3b5a04cdc49c3f87b3e12b558c3dce5d','5','510106','1','1476338505') [ RunTime:0.0450s ]
+
+[ 2016-10-13T14:01:46+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:02:00+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T14:02:13+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:02:15+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0090s ]
+
+[ 2016-10-13T14:02:20+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('yuan7','ba87542487fd6c260a34350b3474d500','5','510106','1','1476338540') [ RunTime:0.0400s ]
+
+[ 2016-10-13T14:02:21+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:02:24+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T14:02:42+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:02:45+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0030s ]
+
+[ 2016-10-13T14:02:50+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('linkin','6b855487ed6e61aaa26cdbf7389c3ab5','5','510106','1','1476338570') [ RunTime:0.0500s ]
+
+[ 2016-10-13T14:02:52+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:02:54+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T14:03:24+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0000s ]
+
+[ 2016-10-13T14:03:27+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T14:03:35+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('nai8','7b11b67a85dbcf47cce7845e5b058516','5','510106','1','1476338615') [ RunTime:0.0550s ]
+
+[ 2016-10-13T14:03:36+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:03:40+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-10-13T14:04:30+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:04:33+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T14:04:37+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('maps','098d1ef2f45c09b46393875410443b09','5','510104','1','1476338677') [ RunTime:0.0490s ]
+
+[ 2016-10-13T14:04:38+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:04:43+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:04:55+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:04:58+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T14:05:02+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('pigff','9474f7fe6c13901b0107203c9381b4ea','5','510105','1','1476338702') [ RunTime:0.0500s ]
+
+[ 2016-10-13T14:05:03+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:05:06+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:05:18+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:05:20+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T14:05:26+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('godv','9775e9c5515b4fe88149bc5707873223','5','510107','1','1476338726') [ RunTime:0.0670s ]
+
+[ 2016-10-13T14:05:27+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:05:30+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `province` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `province`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-10-13T14:06:05+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `city` WHERE ( `father` = 510000 )  [ RunTime:0.0010s ]
+
+[ 2016-10-13T14:06:08+08:00 ] 127.0.0.1 /home/Ath/threeAjax
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: provinceid F:\tsewell\Application\Home\Controller\AthController.class.php 第 33 行.
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+
+[ 2016-10-13T14:06:27+08:00 ] 127.0.0.1 /home/admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `admin` (`username`,`password`,`position_id`,`area_id`,`status`,`creat_time`) VALUES ('bbcat','e40d59f5f157341c60366e6c408c894b','5','510108','1','1476338787') [ RunTime:0.0440s ]
+
+[ 2016-10-13T14:06:28+08:00 ] 127.0.0.1 /Home/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT `position_id` FROM `admin` WHERE ( `username` = 'tsewell' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 28 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `position` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `position`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

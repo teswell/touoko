@@ -1,0 +1,50 @@
+<input id="controller" type="hidden" value="Home" />
+<input id="action" type="hidden" value="Index" />
+<div class="header navbar navbar-default ">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="slogan">
+
+                <a class="logo" style="width:218px" href="/index/index/index" title="优客逸家-租房时代的美好回忆！">
+                    <img src="{{$tse_img}}logo.png" width="218" height="36" alt="优客逸家-租房时代的美好回忆！" />
+                </a>
+
+                <div id="switchcity" class="dropdown dropdown-city">
+                    <a class="dropdown-toggle" id="DropdownMenuCity" data-toggle="dropdown" href="#">成都  <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="DropdownMenuCity">
+                        <li role="presentation"><a city="chengdu" role="menuitem" tabindex="-1" href="http://chengdu.uoko.com">成都</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="uoko-nav">
+                <ul class="navbar navbar-left">
+                    <li data-menu-active="controller_Home&&action_Index">
+                        <a href="{{$tse}}/index/index/index">首页</a>
+                    </li>
+                    <li data-menu-active="controller_Rent&&action_Index">
+                        <a href="{{$tse}}/index/rent/index">我要租房</a>
+                    </li>
+                    <li data-menu-active="controller_AboutUs&&action_Questions">
+                        <a href="{{$tse}}/index/question/index">租前须知</a>
+                    </li>
+                    <li>
+                        <a href="http://fd.uoko.com/" target="_blank">房东加盟</a>
+                    </li>
+                    <li data-menu-active="controller_AboutUs&&action_Index">
+                        <a href="http://about.uoko.com">关于优客</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="navbar navbar-right">
+                <li class="loginbar">
+                    <a href="/index/member/login/" rel="nofollow">登录</a>
+                    <span class="">|</span>
+                    <a href="/index/member/register/" rel="nofollow">注册</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<div class="clearfix"></div>

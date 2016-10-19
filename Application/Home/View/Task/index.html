@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="#" method="post">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>预约人姓名</th>
+                            <th>预约人电话</th>
+                            <th>预约的房子</th>
+                            <th>任务状态</th>
+                            <th>任务生成时间</th>
+                            <th>负责管家</th>
+                            {{if $status != 1}}
+                            <th>处理完成时间</th>
+                            {{/if}}
+                            <th>操作</th>
+                        </tr>
+                        {{foreach $list as $key=>$row}}
+                        <tr>
+                            <td class= "first-cell">{$row.id}</td>
+                            <td class= "first-cell">{$row.name}</td>
+                            <td class= "first-cell">{$row.mobile}</td>
+                            <td class= "first-cell">{{$row.house}}</td>
+                            <td class= "first-cell">{{if $row.status==1}}待处理{{elseif $row.status==2}}处理完成{{elseif $row.status==-1}}暂不处理{{/if}}</td>
+                            <td class= "first-cell">{{$row.submit_time|date_format:'%Y-%m-%d %H:%M:%S'}}</td>
+                            <td class= "first-cell">{{$row.finish_username}}</td>
+                            {{if $status !=1}}
+                            <td class= "first-cell">{{$row.finish_time|date_format:"%Y-%m-%d %H:%I:%S"}}</td>
+                            {{/if}}
+                            <td align= "center">
+                                {{if $position_id == -1}}
+                                <!--管理员查看任务-->
+                                <a href= "/home/task/administration/id/{{$row.id}}"> 查看任务详情 </a>
+                                {{elseif $position_id == 5}}
+                                <!--管家处理任务页面-->
+                                <a href= "/home/task/keeper/id/{{$row.id}}"> 进入任务详情 </a>
+                                {{/if}}
+                            </td>
+                        </tr>
+                        {{/foreach}}
+                    </table>
+                </form>
+                <div class="list-page">{{$page}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

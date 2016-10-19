@@ -1,0 +1,1541 @@
+[ 2016-09-30T15:23:01+08:00 ] 127.0.0.1 /index/rent/index/money/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 700 AND 1000 )  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 1 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 3 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 5 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 7 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 9 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 11 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 13 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 16 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 18 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 20 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 22 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 24 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 27 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 29 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 32 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 35 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 37 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 39 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 41 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 44 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 46 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 48 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 50 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 52 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 54 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 56 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 58 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 60 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 62 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 65 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 67 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 69 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 71 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 74 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 76 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 78 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 80 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 82 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 84 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 86 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 89 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 92 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 95 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 97 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 99 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 101 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 103 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 105 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 108 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 111 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 113 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 115 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 117 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 120 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 123 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 126 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 129 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 133 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 135 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 138 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 141 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 144 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 146 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 148 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 150 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 152 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 154 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 156 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 158 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 160 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 163 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 167 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 169 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 171 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 174 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 176 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 178 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 181 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 184 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 187 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 189 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 191 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 194 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 197 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 200 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 203 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 206 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 208 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 211 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 214 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 216 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 218 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 220 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 222 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 224 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 226 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 228 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 230 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 232 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 235 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 237 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 239 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 241 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 243 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 246 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 248 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 250 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 252 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 254 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 257 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 260 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 263 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 265 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 267 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 269 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 271 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 273 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 276 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 278 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 281 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 283 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 285 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 287 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 289 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 291 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 293 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 296 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 299 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 302 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 304 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 306 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 308 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 310 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 313 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 316 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 318 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 320 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 322 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 324 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 326 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 328 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 330 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 332 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 334 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 336 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 338 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 340 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 342 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 345 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 348 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 350 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 352 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 354 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 356 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 358 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 360 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 363 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 365 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 367 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 370 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 373 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 376 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 379 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 381 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 384 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 386 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 389 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 391 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 393 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 395 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 397 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 399 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 402 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 405 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 407 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 410 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 412 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 414 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 417 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 419 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 421 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 423 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 426 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 428 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 430 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 432 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 434 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 436 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 438 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 440 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 442 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 444 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 446 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 448 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 450 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 452 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 454 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 456 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 459 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 461 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 463 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 465 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 468 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 470 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 472 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 474 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 476 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 478 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 480 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 482 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 484 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 487 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 490 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 492 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 495 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 497 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 499 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 501 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 503 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 505 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 507 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 509 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 511 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 513 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 515 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 517 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 519 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 522 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 525 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 528 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 530 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 532 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 534 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 537 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 539 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 541 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 544 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 547 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 549 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 552 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 555 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 557 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 559 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 561 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 563 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 565 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 567 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 570 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 573 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 575 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 577 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 579 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 581 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 583 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 586 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 588 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 590 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 593 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 596 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 598 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 600 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 603 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 605 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 607 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 609 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 611 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 613 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 615 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 617 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 619 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 622 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 624 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 626 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 628 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 630 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 632 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 634 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 637 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 640 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 642 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 644 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 646 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 648 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 651 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 653 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 655 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 657 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 659 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 662 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 665 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 668 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 671 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 673 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 675 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 678 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 680 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 683 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 685 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 687 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 689 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 691 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 693 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 695 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 698 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 700 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 702 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 704 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 706 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 708 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 710 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 712 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 714 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 717 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 719 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 721 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 723 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 726 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 729 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 731 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 733 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 735 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 738 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 741 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 744 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 746 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 749 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 751 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 753 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 755 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 757 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 759 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 761 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 763 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 765 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 767 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 769 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 772 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 775 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 778 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 780 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 782 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 784 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 787 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 790 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 792 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 795 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 797 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 799 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 801 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 803 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 806 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 809 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 812 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 815 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 818 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 820 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 822 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 824 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 827 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 830 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 832 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 835 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 837 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 839 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 841 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 844 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 846 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 848 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 850 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 852 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 854 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 857 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 859 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 861 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 863 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 865 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 867 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 869 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 871 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 874 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 876 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 878 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 880 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 882 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 884 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 886 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 888 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 890 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 892 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 894 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 896 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 898 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 900 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 902 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 905 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 907 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 910 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 912 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 914 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 917 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 919 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 921 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 924 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 927 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 930 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 933 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 935 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 937 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 939 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 941 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 944 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 946 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 948 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 950 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 952 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 954 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 956 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 959 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 961 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 963 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 966 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 968 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 970 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 972 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 974 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 977 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 980 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 983 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 985 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 987 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 989 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 991 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 994 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 996 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 999 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1002 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1005 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1008 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1010 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1012 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1014 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1017 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1019 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1022 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1024 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1026 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1029 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1031 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1033 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1035 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1038 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1040 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1042 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1044 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1046 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1048 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1050 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1053 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1055 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1057 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1060 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1063 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1066 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1068 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1070 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1073 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1075 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1077 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1080 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1083 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1086 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1088 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1090 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1092 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1094 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1096 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1098 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1101 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1103 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1105 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1108 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1110 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1112 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1114 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1117 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1119 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1121 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1123 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1125 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1127 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1129 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1132 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1135 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1138 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1141 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1144 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1146 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1148 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1151 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1153 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1155 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1158 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1161 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1163 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1165 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1168 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1171 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1174 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1176 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1179 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1181 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1183 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1185 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1187 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1189 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1191 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1194 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1197 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1200 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1202 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1205 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1207 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1210 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1213 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1215 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1218 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1221 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1223 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1225 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1227 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1229 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1232 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1234 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1237 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1240 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1242 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1244 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1246 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1248 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1251 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1254 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1257 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1260 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1263 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1266 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1269 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1272 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1274 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1277 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1280 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1283 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1285 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1287 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1290 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1293 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1295 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1298 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1300 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1302 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1304 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1307 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1309 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1311 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1314 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1316 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1318 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1320 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1322 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1324 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1326 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1328 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1331 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1333 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1335 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1337 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1339 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1341 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1343 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1345 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1347 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1350 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1352 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1354 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1357 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1359 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1361 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1363 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1366 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1368 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1370 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1372 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1375 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1378 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1381 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1384 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1387 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1389 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1392 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1395 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1398 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1402 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1405 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1407 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1409 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1411 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1413 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1415 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1417 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1420 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1422 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1424 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1427 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1430 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1433 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1435 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1438 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1440 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1442 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1444 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1446 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1449 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1452 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1454 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1456 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1459 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1462 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1465 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1468 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1470 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1472 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1474 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1476 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1478 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1481 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1483 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1485 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1487 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1489 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1491 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1493 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1495 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1498 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1500 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1502 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1505 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1508 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1511 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1513 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1516 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1519 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1522 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1525 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1528 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1531 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1533 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1535 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1538 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1541 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1543 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1545 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1547 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1549 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1551 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1553 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1555 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1557 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1560 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1562 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1564 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1567 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1569 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1572 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1575 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1577 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1579 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1582 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1584 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1586 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1589 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1591 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1593 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1596 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1599 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1602 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1605 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1607 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1609 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1611 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1613 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1615 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1617 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1619 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1622 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1625 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1628 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1631 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1634 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1636 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1638 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1640 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1643 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1646 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1648 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1650 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1652 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1654 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1656 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1658 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1660 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1663 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1667 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1669 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1671 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1673 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1676 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1678 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1680 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1682 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1684 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1686 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1689 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1691 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1693 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1695 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1697 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1699 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1702 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1705 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1708 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1711 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1713 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1716 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1718 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1720 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1722 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1724 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1727 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1730 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1733 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1736 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1738 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1741 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1743 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1746 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1748 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1750 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1752 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1755 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1757 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1759 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1762 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1765 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1767 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1769 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1771 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1774 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1776 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1779 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1782 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1784 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1786 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1788 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1790 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1793 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1796 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1799 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1801 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1803 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1805 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1807 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1810 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1813 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1815 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1817 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1819 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1821 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1824 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1826 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1828 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1830 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1832 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1834 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1837 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1840 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1843 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1845 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1847 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1849 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1852 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1854 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1856 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1859 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1861 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1863 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1866 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1869 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1872 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1874 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1876 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1878 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1880 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1883 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1886 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1888 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1890 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1893 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1896 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1898 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1900 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1902 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1904 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1906 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1908 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1910 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1912 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1914 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1917 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1920 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1922 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1924 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1927 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1929 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1931 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1933 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1935 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1937 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1939 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1942 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1944 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1946 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1948 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1951 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1953 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1955 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1957 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1960 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1962 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1964 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1967 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1970 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1972 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1974 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1976 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1978 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1980 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+NOTIC: [8] Undefined offset: 1982 F:\tsewell\Application\Index\Controller\RentController.class.php 第 74 行.
+
+[ 2016-09-30T15:24:05+08:00 ] 127.0.0.1 /index/rent/index/money/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 700 AND 1000 )  [ RunTime:0.0060s ]
+
+[ 2016-09-30T15:24:49+08:00 ] 127.0.0.1 /index/rent/index/money/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 700 AND 1000 )  [ RunTime:0.0060s ]
+
+[ 2016-09-30T15:26:09+08:00 ] 127.0.0.1 /index/rent/index/money/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 700 AND 1000 )  [ RunTime:0.0050s ]
+ERR: 1054:Unknown column 'house_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `house_id` in (60331824,577210033,50733830,143902926,10837703,40436705,70633435,121902498,140902502,163501502,110402075,120202485,181402308,181202290,130502384,167201877,141701826,128001865,187902526,80830193,193602751,190302709,117610146,112010141,144310134,195210123,195910135,136410138,187310139,165910131,122810130,188810128,178210100,199403452,137403472,111503462,150703460,195503463,159810137,190310113,191003431,130510124,170003482,195503497,173203639,186703631,184703334,164403593,197003549,198803597,161210127,114310132,125310112,174110122,168810119,181710126,167810096,141103425,123003665,177303479,155903461,141603480,151403566,198703456,188203646,173203490,127403640,146203528,159610129,199010109,149310098,149010107,120210081,146510072,134510063,171110070,125510102,140710085,164210058,189410071,173710082,118510104,121610067,586310041,521510039,186310108,168910062,20336807,528410045,142610086,194710065,186210093,146210064,190710120,151010103,178010118,110810090,136710099,174410110,118503101,163303148,80635774,167210092,168810089,129810077,549210027,155010095,199503576,10534798,153010094,136210074,166702855,179502958,133103145,70638803,40636809,198010080,164903426,60332831,90937800,50639783,167110073,20433822,120403082,160103138,139710056,113010078,167910061,174910075,140710066,148610076,135402955,111510055,560010050,80235781,139110059,130310057,180103273,90737782,30536817,20135786,553010038,113510054,50432826,60630806,599810048,557210051,549010049,40438751,532810023,90831804,80238810,599110032,533110042,574010028,589010029,60734818,545810040,560810047,10739808,80330801,10634834,514810031,581310008,70939816,70530778,20431759,591210026,534710017,121603534,555610014,557210013,50938738,60138829,30136813,50937827,60037777,60438792,40331787,60036828,80030784,520110011,528210024,532810025,10438785,10637835,515310018,593410019,562610016,10236763,544410004,593410010,60232743,70337820,10935750,582810009,510810006,582110005,10239789,60133083,70034752,50336718,50134735,30937760,147503483,125503445,10735568,176302970,142702820,40635575,50134744,90439706,10437717,60831712,80131688,40736722,60237721,20435727,40734436,174002672,90934122,40937108,90035121,122603557,80506489,70135582,80039119,10335185,60830210,40532687,40530151,70634096,20534420,30135348,30030677,90439689,10539671,152802492,170402495,142902487,194302527,130402488,175902464,145002452,133602461,145802438,143602454,163002386,20205431,60202428,90103427,70407426,80203420,80208424,70203373,60507430,30505370,90104355,20608357,90802345,60208344,190201211,80906349,10906354,118601570,50808326,50105324,80507323,148001177,70807337,142801170,118301167,167801154,60304320,154501145,40206358,138901155,40301310,149801134,439300021,70218711,114801725,184301727,158901701,139301730,164001765,192101690,138601676,166001769,180201685,173301689,198801748,192401739,164501830,118202431,134202417,166902434,161701636,116301647,182001612,199801616,133901605,152001629,172302371,116602470,192901603,142702334,134602354,113702374,165702358,192601581,166301587,170802346,170502475,116602423,150501600,120301569,182401558,174902524,180802539,171502541,177402537,119202536,150302521,189102531,114502528,147202315,178201565,192001551,160901538,179702505,139602508,181402632,197401520,121601575,191501512,121801516,243900065,158301505,126001487,182701906,185501953,154301923,173201957,135901961,116201963,189102545,176502011,192602264,151702039,112102003,125402010,163602549,170202012,183002025,155401474,154101482,162002067,169401447,196702066,185001445,162701435,112002097,190202092,186602095,122002126,183802125,189702195,175502172,185302471,142002335,134002307,143702299,166002332,163402347,172802189,118702201,127802171,169702428,142502267,117602209,110702285,178402256,160411105,170911099,120111102,150811101,160811086,130311088,120511117,140611065,110511064,126001464,174101419,110801408,149101398,190101391,133401379,131601423,152701349,137601347,166402253,179602252,129802251,133501899,136101920,115502118,116801866,147201922,133301897,240207043,181601863,155601873,70405772,30006761,159301852,130916122,157101935,60009757,30300764,111701838,149501836,160411070,160711020,40708731,70400759,125001328,110901327,189901330,30209760,20508722,110111004,30102746,156301322,170401334,10801718,90701694,40709709,118201335,182201353,20207706,10102697,90304700,20908695,10509669,20507656,50702647,50103645,138401354,137901275,136501268,123201243,130801249,120301246,140101252,145601212,143602482,30006655,50209641,10204642,20304626,184702694,119602621,162602578,199202583,155802617,187202604,112902618,127602574,186302566,176102569,126902563,154502588,112702586,173202587,133502564,182302911,170802813,199002784,161502781,169201941,184701815,132601781,173101783,187801753,152501756,130501760,160301704,90401784,90101643,80806605,240000021,270202017,270008027,190511002,110711007,190711001,150906989,120105980,190111078,160000962,90303544,90802550,10709947,170507963,10501534,90503931,90306938,179201165,160301261,167701247,197901221,177401196,112701193,111401219,158601223,160801190,50203529,50309927,110801184,60800542,80600523,20604522,50704526,70205524,80704513,50908512,50901506,20406527,60603499,60905493,60505535,90000494,132702758,148402732,119702765,176902260,171102661,70704738,121002642,169002648,171702675,132902650,30802765,50106468,10009773,10203462,50402933,90601829,150511118,10007788,30107867,60000814,10105471,60207796,10909802,20807834,60408816,20901815,70809484,10201439,80902877,30103453,20901841,140501996,90007870,50507885,50603868,50900856,80807832,40001824,40009826,173702440,138201315,60903007,50707272,80705288,80204281,90109278,90800269,30603280,10501294,30903295,20803298) ) LIMIT 1  
+ERR: 1054:Unknown column 'house_id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `house_id` in (60331824,577210033,50733830,143902926,10837703,40436705,70633435,121902498,140902502,163501502,110402075,120202485,181402308,181202290,130502384,167201877,141701826,128001865,187902526,80830193,193602751,190302709,117610146,112010141,144310134,195210123,195910135,136410138,187310139,165910131,122810130,188810128,178210100,199403452,137403472,111503462,150703460,195503463,159810137,190310113,191003431,130510124,170003482,195503497,173203639,186703631,184703334,164403593,197003549,198803597,161210127,114310132,125310112,174110122,168810119,181710126,167810096,141103425,123003665,177303479,155903461,141603480,151403566,198703456,188203646,173203490,127403640,146203528,159610129,199010109,149310098,149010107,120210081,146510072,134510063,171110070,125510102,140710085,164210058,189410071,173710082,118510104,121610067,586310041,521510039,186310108,168910062,20336807,528410045,142610086,194710065,186210093,146210064,190710120,151010103,178010118,110810090,136710099,174410110,118503101,163303148,80635774,167210092,168810089,129810077,549210027,155010095,199503576,10534798,153010094,136210074,166702855,179502958,133103145,70638803,40636809,198010080,164903426,60332831,90937800,50639783,167110073,20433822,120403082,160103138,139710056,113010078,167910061,174910075,140710066,148610076,135402955,111510055,560010050,80235781,139110059,130310057,180103273,90737782,30536817,20135786,553010038,113510054,50432826,60630806,599810048,557210051,549010049,40438751,532810023,90831804,80238810,599110032,533110042,574010028,589010029,60734818,545810040,560810047,10739808,80330801,10634834,514810031,581310008,70939816,70530778,20431759,591210026,534710017,121603534,555610014,557210013,50938738,60138829,30136813,50937827,60037777,60438792,40331787,60036828,80030784,520110011,528210024,532810025,10438785,10637835,515310018,593410019,562610016,10236763,544410004,593410010,60232743,70337820,10935750,582810009,510810006,582110005,10239789,60133083,70034752,50336718,50134735,30937760,147503483,125503445,10735568,176302970,142702820,40635575,50134744,90439706,10437717,60831712,80131688,40736722,60237721,20435727,40734436,174002672,90934122,40937108,90035121,122603557,80506489,70135582,80039119,10335185,60830210,40532687,40530151,70634096,20534420,30135348,30030677,90439689,10539671,152802492,170402495,142902487,194302527,130402488,175902464,145002452,133602461,145802438,143602454,163002386,20205431,60202428,90103427,70407426,80203420,80208424,70203373,60507430,30505370,90104355,20608357,90802345,60208344,190201211,80906349,10906354,118601570,50808326,50105324,80507323,148001177,70807337,142801170,118301167,167801154,60304320,154501145,40206358,138901155,40301310,149801134,439300021,70218711,114801725,184301727,158901701,139301730,164001765,192101690,138601676,166001769,180201685,173301689,198801748,192401739,164501830,118202431,134202417,166902434,161701636,116301647,182001612,199801616,133901605,152001629,172302371,116602470,192901603,142702334,134602354,113702374,165702358,192601581,166301587,170802346,170502475,116602423,150501600,120301569,182401558,174902524,180802539,171502541,177402537,119202536,150302521,189102531,114502528,147202315,178201565,192001551,160901538,179702505,139602508,181402632,197401520,121601575,191501512,121801516,243900065,158301505,126001487,182701906,185501953,154301923,173201957,135901961,116201963,189102545,176502011,192602264,151702039,112102003,125402010,163602549,170202012,183002025,155401474,154101482,162002067,169401447,196702066,185001445,162701435,112002097,190202092,186602095,122002126,183802125,189702195,175502172,185302471,142002335,134002307,143702299,166002332,163402347,172802189,118702201,127802171,169702428,142502267,117602209,110702285,178402256,160411105,170911099,120111102,150811101,160811086,130311088,120511117,140611065,110511064,126001464,174101419,110801408,149101398,190101391,133401379,131601423,152701349,137601347,166402253,179602252,129802251,133501899,136101920,115502118,116801866,147201922,133301897,240207043,181601863,155601873,70405772,30006761,159301852,130916122,157101935,60009757,30300764,111701838,149501836,160411070,160711020,40708731,70400759,125001328,110901327,189901330,30209760,20508722,110111004,30102746,156301322,170401334,10801718,90701694,40709709,118201335,182201353,20207706,10102697,90304700,20908695,10509669,20507656,50702647,50103645,138401354,137901275,136501268,123201243,130801249,120301246,140101252,145601212,143602482,30006655,50209641,10204642,20304626,184702694,119602621,162602578,199202583,155802617,187202604,112902618,127602574,186302566,176102569,126902563,154502588,112702586,173202587,133502564,182302911,170802813,199002784,161502781,169201941,184701815,132601781,173101783,187801753,152501756,130501760,160301704,90401784,90101643,80806605,240000021,270202017,270008027,190511002,110711007,190711001,150906989,120105980,190111078,160000962,90303544,90802550,10709947,170507963,10501534,90503931,90306938,179201165,160301261,167701247,197901221,177401196,112701193,111401219,158601223,160801190,50203529,50309927,110801184,60800542,80600523,20604522,50704526,70205524,80704513,50908512,50901506,20406527,60603499,60905493,60505535,90000494,132702758,148402732,119702765,176902260,171102661,70704738,121002642,169002648,171702675,132902650,30802765,50106468,10009773,10203462,50402933,90601829,150511118,10007788,30107867,60000814,10105471,60207796,10909802,20807834,60408816,20901815,70809484,10201439,80902877,30103453,20901841,140501996,90007870,50507885,50603868,50900856,80807832,40001824,40009826,173702440,138201315,60903007,50707272,80705288,80204281,90109278,90800269,30603280,10501294,30903295,20803298) ) LIMIT 1  
+
+[ 2016-09-30T15:31:07+08:00 ] 127.0.0.1 /index/rent/index/money/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 700 AND 1000 )  [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (60331824,577210033,50733830,143902926,10837703,40436705,70633435,121902498,140902502,163501502,110402075,120202485,181402308,181202290,130502384,167201877,141701826,128001865,187902526,80830193,193602751,190302709,117610146,112010141,144310134,195210123,195910135,136410138,187310139,165910131,122810130,188810128,178210100,199403452,137403472,111503462,150703460,195503463,159810137,190310113,191003431,130510124,170003482,195503497,173203639,186703631,184703334,164403593,197003549,198803597,161210127,114310132,125310112,174110122,168810119,181710126,167810096,141103425,123003665,177303479,155903461,141603480,151403566,198703456,188203646,173203490,127403640,146203528,159610129,199010109,149310098,149010107,120210081,146510072,134510063,171110070,125510102,140710085,164210058,189410071,173710082,118510104,121610067,586310041,521510039,186310108,168910062,20336807,528410045,142610086,194710065,186210093,146210064,190710120,151010103,178010118,110810090,136710099,174410110,118503101,163303148,80635774,167210092,168810089,129810077,549210027,155010095,199503576,10534798,153010094,136210074,166702855,179502958,133103145,70638803,40636809,198010080,164903426,60332831,90937800,50639783,167110073,20433822,120403082,160103138,139710056,113010078,167910061,174910075,140710066,148610076,135402955,111510055,560010050,80235781,139110059,130310057,180103273,90737782,30536817,20135786,553010038,113510054,50432826,60630806,599810048,557210051,549010049,40438751,532810023,90831804,80238810,599110032,533110042,574010028,589010029,60734818,545810040,560810047,10739808,80330801,10634834,514810031,581310008,70939816,70530778,20431759,591210026,534710017,121603534,555610014,557210013,50938738,60138829,30136813,50937827,60037777,60438792,40331787,60036828,80030784,520110011,528210024,532810025,10438785,10637835,515310018,593410019,562610016,10236763,544410004,593410010,60232743,70337820,10935750,582810009,510810006,582110005,10239789,60133083,70034752,50336718,50134735,30937760,147503483,125503445,10735568,176302970,142702820,40635575,50134744,90439706,10437717,60831712,80131688,40736722,60237721,20435727,40734436,174002672,90934122,40937108,90035121,122603557,80506489,70135582,80039119,10335185,60830210,40532687,40530151,70634096,20534420,30135348,30030677,90439689,10539671,152802492,170402495,142902487,194302527,130402488,175902464,145002452,133602461,145802438,143602454,163002386,20205431,60202428,90103427,70407426,80203420,80208424,70203373,60507430,30505370,90104355,20608357,90802345,60208344,190201211,80906349,10906354,118601570,50808326,50105324,80507323,148001177,70807337,142801170,118301167,167801154,60304320,154501145,40206358,138901155,40301310,149801134,439300021,70218711,114801725,184301727,158901701,139301730,164001765,192101690,138601676,166001769,180201685,173301689,198801748,192401739,164501830,118202431,134202417,166902434,161701636,116301647,182001612,199801616,133901605,152001629,172302371,116602470,192901603,142702334,134602354,113702374,165702358,192601581,166301587,170802346,170502475,116602423,150501600,120301569,182401558,174902524,180802539,171502541,177402537,119202536,150302521,189102531,114502528,147202315,178201565,192001551,160901538,179702505,139602508,181402632,197401520,121601575,191501512,121801516,243900065,158301505,126001487,182701906,185501953,154301923,173201957,135901961,116201963,189102545,176502011,192602264,151702039,112102003,125402010,163602549,170202012,183002025,155401474,154101482,162002067,169401447,196702066,185001445,162701435,112002097,190202092,186602095,122002126,183802125,189702195,175502172,185302471,142002335,134002307,143702299,166002332,163402347,172802189,118702201,127802171,169702428,142502267,117602209,110702285,178402256,160411105,170911099,120111102,150811101,160811086,130311088,120511117,140611065,110511064,126001464,174101419,110801408,149101398,190101391,133401379,131601423,152701349,137601347,166402253,179602252,129802251,133501899,136101920,115502118,116801866,147201922,133301897,240207043,181601863,155601873,70405772,30006761,159301852,130916122,157101935,60009757,30300764,111701838,149501836,160411070,160711020,40708731,70400759,125001328,110901327,189901330,30209760,20508722,110111004,30102746,156301322,170401334,10801718,90701694,40709709,118201335,182201353,20207706,10102697,90304700,20908695,10509669,20507656,50702647,50103645,138401354,137901275,136501268,123201243,130801249,120301246,140101252,145601212,143602482,30006655,50209641,10204642,20304626,184702694,119602621,162602578,199202583,155802617,187202604,112902618,127602574,186302566,176102569,126902563,154502588,112702586,173202587,133502564,182302911,170802813,199002784,161502781,169201941,184701815,132601781,173101783,187801753,152501756,130501760,160301704,90401784,90101643,80806605,240000021,270202017,270008027,190511002,110711007,190711001,150906989,120105980,190111078,160000962,90303544,90802550,10709947,170507963,10501534,90503931,90306938,179201165,160301261,167701247,197901221,177401196,112701193,111401219,158601223,160801190,50203529,50309927,110801184,60800542,80600523,20604522,50704526,70205524,80704513,50908512,50901506,20406527,60603499,60905493,60505535,90000494,132702758,148402732,119702765,176902260,171102661,70704738,121002642,169002648,171702675,132902650,30802765,50106468,10009773,10203462,50402933,90601829,150511118,10007788,30107867,60000814,10105471,60207796,10909802,20807834,60408816,20901815,70809484,10201439,80902877,30103453,20901841,140501996,90007870,50507885,50603868,50900856,80807832,40001824,40009826,173702440,138201315,60903007,50707272,80705288,80204281,90109278,90800269,30603280,10501294,30903295,20803298) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (60331824,577210033,50733830,143902926,10837703,40436705,70633435,121902498,140902502,163501502,110402075,120202485,181402308,181202290,130502384,167201877,141701826,128001865,187902526,80830193,193602751,190302709,117610146,112010141,144310134,195210123,195910135,136410138,187310139,165910131,122810130,188810128,178210100,199403452,137403472,111503462,150703460,195503463,159810137,190310113,191003431,130510124,170003482,195503497,173203639,186703631,184703334,164403593,197003549,198803597,161210127,114310132,125310112,174110122,168810119,181710126,167810096,141103425,123003665,177303479,155903461,141603480,151403566,198703456,188203646,173203490,127403640,146203528,159610129,199010109,149310098,149010107,120210081,146510072,134510063,171110070,125510102,140710085,164210058,189410071,173710082,118510104,121610067,586310041,521510039,186310108,168910062,20336807,528410045,142610086,194710065,186210093,146210064,190710120,151010103,178010118,110810090,136710099,174410110,118503101,163303148,80635774,167210092,168810089,129810077,549210027,155010095,199503576,10534798,153010094,136210074,166702855,179502958,133103145,70638803,40636809,198010080,164903426,60332831,90937800,50639783,167110073,20433822,120403082,160103138,139710056,113010078,167910061,174910075,140710066,148610076,135402955,111510055,560010050,80235781,139110059,130310057,180103273,90737782,30536817,20135786,553010038,113510054,50432826,60630806,599810048,557210051,549010049,40438751,532810023,90831804,80238810,599110032,533110042,574010028,589010029,60734818,545810040,560810047,10739808,80330801,10634834,514810031,581310008,70939816,70530778,20431759,591210026,534710017,121603534,555610014,557210013,50938738,60138829,30136813,50937827,60037777,60438792,40331787,60036828,80030784,520110011,528210024,532810025,10438785,10637835,515310018,593410019,562610016,10236763,544410004,593410010,60232743,70337820,10935750,582810009,510810006,582110005,10239789,60133083,70034752,50336718,50134735,30937760,147503483,125503445,10735568,176302970,142702820,40635575,50134744,90439706,10437717,60831712,80131688,40736722,60237721,20435727,40734436,174002672,90934122,40937108,90035121,122603557,80506489,70135582,80039119,10335185,60830210,40532687,40530151,70634096,20534420,30135348,30030677,90439689,10539671,152802492,170402495,142902487,194302527,130402488,175902464,145002452,133602461,145802438,143602454,163002386,20205431,60202428,90103427,70407426,80203420,80208424,70203373,60507430,30505370,90104355,20608357,90802345,60208344,190201211,80906349,10906354,118601570,50808326,50105324,80507323,148001177,70807337,142801170,118301167,167801154,60304320,154501145,40206358,138901155,40301310,149801134,439300021,70218711,114801725,184301727,158901701,139301730,164001765,192101690,138601676,166001769,180201685,173301689,198801748,192401739,164501830,118202431,134202417,166902434,161701636,116301647,182001612,199801616,133901605,152001629,172302371,116602470,192901603,142702334,134602354,113702374,165702358,192601581,166301587,170802346,170502475,116602423,150501600,120301569,182401558,174902524,180802539,171502541,177402537,119202536,150302521,189102531,114502528,147202315,178201565,192001551,160901538,179702505,139602508,181402632,197401520,121601575,191501512,121801516,243900065,158301505,126001487,182701906,185501953,154301923,173201957,135901961,116201963,189102545,176502011,192602264,151702039,112102003,125402010,163602549,170202012,183002025,155401474,154101482,162002067,169401447,196702066,185001445,162701435,112002097,190202092,186602095,122002126,183802125,189702195,175502172,185302471,142002335,134002307,143702299,166002332,163402347,172802189,118702201,127802171,169702428,142502267,117602209,110702285,178402256,160411105,170911099,120111102,150811101,160811086,130311088,120511117,140611065,110511064,126001464,174101419,110801408,149101398,190101391,133401379,131601423,152701349,137601347,166402253,179602252,129802251,133501899,136101920,115502118,116801866,147201922,133301897,240207043,181601863,155601873,70405772,30006761,159301852,130916122,157101935,60009757,30300764,111701838,149501836,160411070,160711020,40708731,70400759,125001328,110901327,189901330,30209760,20508722,110111004,30102746,156301322,170401334,10801718,90701694,40709709,118201335,182201353,20207706,10102697,90304700,20908695,10509669,20507656,50702647,50103645,138401354,137901275,136501268,123201243,130801249,120301246,140101252,145601212,143602482,30006655,50209641,10204642,20304626,184702694,119602621,162602578,199202583,155802617,187202604,112902618,127602574,186302566,176102569,126902563,154502588,112702586,173202587,133502564,182302911,170802813,199002784,161502781,169201941,184701815,132601781,173101783,187801753,152501756,130501760,160301704,90401784,90101643,80806605,240000021,270202017,270008027,190511002,110711007,190711001,150906989,120105980,190111078,160000962,90303544,90802550,10709947,170507963,10501534,90503931,90306938,179201165,160301261,167701247,197901221,177401196,112701193,111401219,158601223,160801190,50203529,50309927,110801184,60800542,80600523,20604522,50704526,70205524,80704513,50908512,50901506,20406527,60603499,60905493,60505535,90000494,132702758,148402732,119702765,176902260,171102661,70704738,121002642,169002648,171702675,132902650,30802765,50106468,10009773,10203462,50402933,90601829,150511118,10007788,30107867,60000814,10105471,60207796,10909802,20807834,60408816,20901815,70809484,10201439,80902877,30103453,20901841,140501996,90007870,50507885,50603868,50900856,80807832,40001824,40009826,173702440,138201315,60903007,50707272,80705288,80204281,90109278,90800269,30603280,10501294,30903295,20803298) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210013 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 514810031 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 270202017 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 270008027 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 243900065 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 198801748 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197901221 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197401520 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.191011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.191011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:31:12+08:00 ] 127.0.0.1 /index/rent/index/money/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:31:16+08:00 ] 127.0.0.1 /index/rent/index/money/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 2000 AND 10000 )  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (124603629,70408369,60805692,60709615,90902631,10002555) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (124603629,70408369,60805692,60709615,90902631,10002555) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:31:18+08:00 ] 127.0.0.1 /index/rent/index/money/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1000 AND 1500 )  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (40436705,70633435,140902502,163501502,120202485,181402308,193602751,117610146,112010141,144310134,195210123,195910135,187310139,165910131,178210100,199403452,137403472,111503462,150703460,195503463,159810137,190310113,191003431,130510124,170003482,195503497,173203639,186703631,164403593,161210127,114310132,125310112,168810119,181710126,167810096,141103425,177303479,198703456,173710082,168910062,20336807,142610086,194710065,186210093,178010118,163303148,549210027,10534798,153010094,60332831,167110073,20433822,120403082,160103138,113010078,111510055,80235781,90831804,560810047,121603534,50938738,60138829,10935750,582810009,582110005,125503445,50134744,90439706,60237721,30030677,148001177,118301167,149801134,439300021,184301727,158901701,164501830,113702374,166301587,192001551,243900065,126001487,154301923,192602264,162002067,117602209,160411105,160811086,130311088,60009757,30300764,110111004,50702647,140101252,169201941,187801753,110711007,170507963,10501534,90306938,160301261,160801190,80600523,60505535,20807834,70809484,10201439,30103453,20901841,50603868,50900856,138201315,90109278) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (40436705,70633435,140902502,163501502,120202485,181402308,193602751,117610146,112010141,144310134,195210123,195910135,187310139,165910131,178210100,199403452,137403472,111503462,150703460,195503463,159810137,190310113,191003431,130510124,170003482,195503497,173203639,186703631,164403593,161210127,114310132,125310112,168810119,181710126,167810096,141103425,177303479,198703456,173710082,168910062,20336807,142610086,194710065,186210093,178010118,163303148,549210027,10534798,153010094,60332831,167110073,20433822,120403082,160103138,113010078,111510055,80235781,90831804,560810047,121603534,50938738,60138829,10935750,582810009,582110005,125503445,50134744,90439706,60237721,30030677,148001177,118301167,149801134,439300021,184301727,158901701,164501830,113702374,166301587,192001551,243900065,126001487,154301923,192602264,162002067,117602209,160411105,160811086,130311088,60009757,30300764,110111004,50702647,140101252,169201941,187801753,110711007,170507963,10501534,90306938,160301261,160801190,80600523,60505535,20807834,70809484,10201439,30103453,20901841,50603868,50900856,138201315,90109278) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 560810047 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 243900065 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 186210093 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 178010118 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 168910062 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 120202485 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 117602209 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10935750 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-30T15:31:25+08:00 ] 127.0.0.1 /index/rent/index/money/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `type` LIKE '%1%' AND `area_id` = 510105 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:32:09+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:32:12+08:00 ] 127.0.0.1 /index/rent/index/money/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 240207043 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 240000021 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 175801681 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 174302237 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 161303459 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 150602077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 148101811 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-30T15:32:16+08:00 ] 127.0.0.1 /index/rent/index/money/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 2000 AND 10000 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `id` in (124603629,70408369,60805692,60709615,90902631,10002555) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `id` in (124603629,70408369,60805692,60709615,90902631,10002555) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 124603629 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 90902631 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 70408369 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 60805692 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 60709615 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:32:30+08:00 ] 127.0.0.1 /index/rent/index/money/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 240207043 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 240000021 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 175801681 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 174302237 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 161303459 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 150602077 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 148101811 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-30T15:39:21+08:00 ] 127.0.0.1 /index/rent/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599110032 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410010 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 591210026 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 589010029 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 586310041 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582810009 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 582110005 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+NOTIC: [8] Undefined index: search F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 93 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-30T15:40:43+08:00 ] 127.0.0.1 /index/rent/index/area/510112
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `area_id` = 510112 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `area_id` = 510112 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 196702066 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 183002025 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 176902260 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 175502172 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 163002386 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 143602482 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 122002126 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 118202431 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 112102003 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:40:46+08:00 ] 127.0.0.1 /index/rent/index/area/510108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 528210024 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 199403452 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 194302527 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-30T15:43:57+08:00 ] 127.0.0.1 /index/rent/index/area/510108
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0120s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 599810048 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 593410019 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 577210033 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 557210051 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 528210024 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 199403452 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 194302527 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0040s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 141 行.
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 145 行.
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.094005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-30T15:44:00+08:00 ] 127.0.0.1 /index/rent/index/money/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Index\Controller\RentController.class.php 第 43 行.
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 175801681 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 174302237 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 141202164 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 118301617 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 141 行.
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 145 行.
+NOTIC: [8] Undefined index: type F:\tsewell\Application\Runtime\Cache\ab29c7495b243c3d59067311f0854c07a3899a90.file.index.html.php 第 149 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-30T15:44:04+08:00 ] 127.0.0.1 /index/rent/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0250s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0070s ]
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) AND `type` LIKE '%2%' ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) AND `type` LIKE '%2%' ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0030s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 175801681 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 174302237 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 141202164 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 118301617 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-30T15:44:28+08:00 ] 127.0.0.1 /index/rent/index/type/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `area` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `area` WHERE ( `father` = 510100 )  [ RunTime:0.0040s ]
+SQL: SELECT `house_id` FROM `room` WHERE ( `price` BETWEEN 1500 AND 2000 )  [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) AND `type` LIKE '%2%' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 AND `area_id` = 510108 AND `id` in (161303459,150602077,117610146,121603534,175801681,292500077,118301617,197301972,141202164,174302237,240207043,143101960,148101811,240000021,60903007) AND `type` LIKE '%2%' ) ORDER BY `id` DESC LIMIT 0,9   [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 292500077 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 197301972 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 175801681 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 174302237 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 141202164 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 118301617 )  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `house` WHERE ( `status` = 1 ) ORDER BY `id` ASC LIMIT 6   [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10002555 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10007788 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10009773 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10102697 )  [ RunTime:0.0020s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10105471 )  [ RunTime:0.0010s ]
+SQL: SELECT `price` FROM `room` WHERE ( `house_id` = 10201439 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

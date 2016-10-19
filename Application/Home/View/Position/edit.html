@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/position/edit" method="post" id="myform" name="myform">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>权限名称：</th>
+                            <td>
+                                <input class="common-text required" id="title" name="position[name]" size="50" value="{{$info.name}}" type="text"/>
+                                <input type="hidden" name="position[id]" value="{{$info.id}}" />
+                            </td>
+                        </tr>
+                        {{foreach $menu as $key=>$val}}
+                        <tr>
+                            <th><input type="checkbox" name="position[menu_ids][]" value="{{$val.id}}" {{if strstr($info.menu_ids,','|cat:strval($val.id)|cat:',')}}checked{{/if}}/> {{$val.name}}:</th>
+                            <td>
+                                {{foreach $val.children as $k=>$v}}
+                                <input name="position[menu_ids][]" type="checkbox" value="{{$v.id}}" {{if strstr($info.menu_ids,','|cat:strval($v.id)|cat:',')}}checked{{/if}}/>{{$v.name}} &nbsp;&nbsp;
+                                {{/foreach}}
+                            </td>
+                        </tr>
+                        {{/foreach}}
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

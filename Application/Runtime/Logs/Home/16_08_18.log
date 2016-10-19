@@ -1,0 +1,1168 @@
+[ 2016-08-18T12:36:03+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+
+[ 2016-08-18T13:43:45+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+
+[ 2016-08-18T13:44:05+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+
+[ 2016-08-18T13:44:44+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0690s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0060s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\d430105e6260ba7b0b72fab88dfbff1b5ac54647.file.index.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\d430105e6260ba7b0b72fab88dfbff1b5ac54647.file.index.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\baf144b1483158280d0536d529f10c1cea2767ab.file.header.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\baf144b1483158280d0536d529f10c1cea2767ab.file.header.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\638612845fcca67f84ef49732914b8b55cbafcfa.file.top.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\638612845fcca67f84ef49732914b8b55cbafcfa.file.top.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\6eb577047ee14d1a23282d2ca4332566d9579e56.file.left.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\6eb577047ee14d1a23282d2ca4332566d9579e56.file.left.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\682e18915b3cebc99da4e3e7f8b4e14a17d2c273.file.navi.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\682e18915b3cebc99da4e3e7f8b4e14a17d2c273.file.navi.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.380022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.380022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T13:46:45+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+
+[ 2016-08-18T13:48:13+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T13:48:22+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+
+[ 2016-08-18T13:53:48+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0170s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+
+[ 2016-08-18T13:54:49+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T13:55:33+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+
+[ 2016-08-18T14:02:38+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:08:33+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:22:22+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\395089a4e4c54d579d36026981bb2600ea346eea.file.add.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\395089a4e4c54d579d36026981bb2600ea346eea.file.add.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\739b55788025bc205b65ee11c03aba3ac0d7cee5.file.upload_js.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\739b55788025bc205b65ee11c03aba3ac0d7cee5.file.upload_js.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:22:44+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:29:57+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:33:00+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:33:21+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\tsewell\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `room` (`name`,`price`,`size`,`status`,`img`) VALUES ('21','12','12','2','20160818/57b556b16b9b1.jpg') [ RunTime:0.1070s ]
+
+[ 2016-08-18T14:33:22+08:00 ] 127.0.0.1 /home/room/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: id F:\tsewell\Application\Home\Controller\RoomController.class.php 第 22 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` =  ) LIMIT 1  
+
+[ 2016-08-18T14:33:38+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:33:45+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:35:38+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:36:01+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\tsewell\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-18T14:36:18+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\tsewell\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-18T14:36:46+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\tsewell\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2016-08-18T14:37:04+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\tsewell\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `room` (`name`,`price`,`size`,`type`,`status`,`img`,`house_id`) VALUES ('11','22','33','1,2,3','-1','20160818/57b55790e1b78.jpg','3') [ RunTime:0.0570s ]
+
+[ 2016-08-18T14:37:06+08:00 ] 127.0.0.1 /home/room/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: id F:\tsewell\Application\Home\Controller\RoomController.class.php 第 22 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` =  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` =  ) LIMIT 1  
+
+[ 2016-08-18T14:37:11+08:00 ] 127.0.0.1 /home/room/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:37:15+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'house_id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `house` WHERE ( `house_id` = 3 ) LIMIT 1  
+ERR: 1054:Unknown column 'house_id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `house` WHERE ( `house_id` = 3 ) LIMIT 1  
+
+[ 2016-08-18T14:37:39+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : SELECT `title` FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1  
+ERR: 1054:Unknown column 'title' in 'field list'
+ [ SQL语句 ] : SELECT `title` FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1  
+
+[ 2016-08-18T14:37:52+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'house_id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `house` WHERE ( `house_id` = 3 ) LIMIT 1  
+ERR: 1054:Unknown column 'house_id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `house` WHERE ( `house_id` = 3 ) LIMIT 1  
+
+[ 2016-08-18T14:40:46+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:40:59+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:41:36+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 33 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:42:53+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 34 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 34 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 34 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 34 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 34 行.
+
+[ 2016-08-18T14:43:12+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 35 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 35 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 35 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 35 行.
+NOTIC: [8] Array to string conversion F:\tsewell\Application\Home\Controller\RoomController.class.php 第 35 行.
+
+[ 2016-08-18T14:44:07+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-18T14:44:17+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:44:58+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:45:51+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:46:10+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:53:04+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T14:53:08+08:00 ] 127.0.0.1 /home/room/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `room` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\6cf97be57558cfd416451a84fc60c3548ad7ac2e.file.edit.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\6cf97be57558cfd416451a84fc60c3548ad7ac2e.file.edit.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:53:48+08:00 ] 127.0.0.1 /home/room/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `room` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:54:38+08:00 ] 127.0.0.1 /home/room/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+
+[ 2016-08-18T14:54:43+08:00 ] 127.0.0.1 /home/room/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: id F:\tsewell\Application\Home\Controller\TseController.class.php 第 106 行.
+
+[ 2016-08-18T14:56:05+08:00 ] 127.0.0.1 /home/room/edit/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `room` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:56:09+08:00 ] 127.0.0.1 /home/room/edit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto F:\tsewell\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `room` SET `name`='11',`price`='22',`size`='33',`type`='1,2,3',`status`='2',`house_id`='3' WHERE `id` = 2 [ RunTime:0.0210s ]
+
+[ 2016-08-18T14:56:10+08:00 ] 127.0.0.1 /home/room/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: id F:\tsewell\Application\Home\Controller\RoomController.class.php 第 37 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:56:27+08:00 ] 127.0.0.1 /home/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` LIMIT 1   [ RunTime:0.0090s ]
+SQL: SELECT * FROM `house` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] filemtime(): stat failed for ./Application/Runtime/Cache\6d26c0a3c45eae4d147b60f9c9e12f136d1773fc.file.index.html.php F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_resource.php 第 683 行.
+NOTIC: [2] unlink(./Application/Runtime/Cache\6d26c0a3c45eae4d147b60f9c9e12f136d1773fc.file.index.html.php): No such file or directory F:\tsewell\ThinkPHP\Library\Vendor\Smarty\sysplugins\smarty_internal_write_file.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T14:56:42+08:00 ] 127.0.0.1 /home/room/index/id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `room` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `room` WHERE ( `house_id` = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `room` WHERE ( `house_id` = 3 ) ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `title` FROM `house` WHERE ( `id` = 3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T15:34:05+08:00 ] 127.0.0.1 /home/house/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin_menu` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 18 ) ORDER BY sort ASC  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 15 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `admin_menu` WHERE ( `status` = 1 AND `level` = 2 AND `parent_id` = 1 ) ORDER BY sort ASC  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `house` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `house` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `house` ORDER BY `id` DESC LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <div class="short-wrap">
+                    <a href="/home/room/add"><i class="icon-font"></i>填加房间</a>
+                </div>
+            </div>
+        </div>
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="#" method="post">
+                    <table class="result-tab" width="100%">
+                        <tr>
+                            <th>ID</th>
+                            <th>房间名称</th>
+                            <th>图片</th>
+                            <th>对应的房子</th>
+                            <th>价格</th>
+                            <th>面积</th>
+                            <th>状态</th>
+                            <th>类型</th>
+                            <th>操作</th>
+                        </tr>
+                        {{foreach $list as $key=>$row}}
+                        <tr>
+                            <td class= "first-cell">{$row.id}</td>
+                            <td class= "first-cell">{$row.name}</td>
+                            <td class= "first-cell">
+                                {{if strstr($row.img,'http')}}
+                                <img src="{$row.img}&width=60&height=60" style="height: 60px">
+                                {{else}}
+                                <img src="{$img}{$row.img}" style="height: 60px">
+                                {{/if}}
+                            </td>
+                            <td class= "first-cell">{$row.house_name}</td>
+                            <td class= "first-cell">{$row.price}￥/每月</td>
+                            <td class= "first-cell">{$row.size}平米</td>
+                            <td class= "first-cell">
+                                {{if $row.status==-1}}下架
+                                {{elseif $row.status == 1}}已入住
+                                {{elseif $row.status == 2}}未入住
+                                {{elseif $row.status == 3}}正在装修
+                                {{/if}}
+                            </td>
+                            <td class= "first-cell">{$row.type}</td>
+                            <td align= "center">
+                                <a href= "/home/room/edit/id/{{$row.id}}" title= "编辑"> 编辑 </a> |
+                                <a class="ajax_delete" href= "javascript:void(0)" title="移除" onclick="remove_delete({{$row.id}},'/home/room/delete')"> 移除 </a>
+                            </td>
+                        </tr>
+                        {{/foreach}}
+                    </table>
+                </form>
+                <div class="list-page">{{$page}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

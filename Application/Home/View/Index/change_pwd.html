@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+{{include file='comm/header.html'}}
+<body>
+{{include file='comm/top.html'}}
+<div class="container clearfix">
+    {{include file='comm/left.html'}}
+    <div class="main-wrap">
+        {{include file='comm/navi.html'}}
+        <div class="result-wrap">
+            <div class="result-content">
+                <form action="/home/index/changePwd" method="post" id="myform" name="myform">
+                    <table class="insert-tab" width="100%">
+                        <tbody>
+                        <tr>
+                            <th><i class="require-red">*</i>旧密码：</th>
+                            <td>
+                                <input class="common-text required" name="password[old_password]" size="35" value="" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>新密码：</th>
+                            <td>
+                                <input class="common-text required"  name="password[new_password]" size="35" value="" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><i class="require-red">*</i>再次输入密码：</th>
+                            <td>
+                                <input class="common-text required"  name="password[repeat_password]" size="35" value="" type="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input class="btn btn-primary btn6 mr10" value="提交" type="submit">
+                                <input class="btn btn6" onclick="history.go(-1)" value="返回" type="button">
+                            </td>
+                        </tr>
+                        </tbody></table>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <!--/main-->
+</div>
+</body>
+</html>

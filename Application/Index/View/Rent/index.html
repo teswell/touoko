@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    {{include file='share/header_url.html'}}
+    <style>
+        body {
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body data-spy="scroll">
+{{include file='share/header.html'}}
+<div class="search-box">
+    <div class="container-min">
+        <!--<ol class="breadcrumb">-->
+            <!--<li><a href="/">首页</a></li>-->
+            <!--<li class="active">我要租房</li>-->
+        <!--</ol>-->
+        <div class="nav-search-tabs search_title">
+            <ul class="nav nav-tabs nav-search ">
+                <li class="active">
+                    <a href="/rent/" class="title_name title_1"><span class="sprite sprite_select_1"></span> 条件找房</a>
+                </li>
+                <li class="nav-new">
+                    <a href="/search_map/" class=" title_name title_1"><span class="glyphicon glyphicon-map-marker text-yellow"></span> 地图找房 <span class=" sprite_search_new"></span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content tab-seach">
+            <div class="tab-pane fade in active">
+                <div class="selection">
+                    <div class="s-box">
+                        <form action="/index/rent/index">
+                        <div class="s-input input-group">
+                            <input type="text" class="form-control search-input-1 top-search-keydown" value="" placeholder="输入商圈、地标、景点等" name="search[keyword]" />
+                            <span class="input-group-btn">
+                                <input class="btn btn-orange search-input-1 top-search-button" type="submit">搜 索</input>
+                            </span>
+                        </div>
+                        </form>
+                        <div class="bk20"></div>
+                    </div>
+                    <div class="s-box">
+                        <div class="s-title">区域：</div>
+                        <div class="s-l" style="float:left;width:90%;">
+                            <a {{if empty($smarty.session.search.area)}} class="s-all  active" {{else}} class="s-all" {{/if}} href="/index/rent/index/area/all">全部</a>
+                            {{foreach $area as $key=>$val}}
+                            <a {{if $smarty.session.search.area==$val.areaid}} class="s-area active" {{else}} class="s-area" {{/if}}  href="/index/rent/index/area/{{$val.areaid}}">{{$val.area}}</a>
+                            {{/foreach}}
+                        </div>
+                    </div>
+                    <div class="s-box">
+                        <div class="s-title">租金：</div>
+                        <div class="s-l">
+                            <a {{if empty($smarty.session.search.money)}} class="s-all active" {{else}} class="s-all" {{/if}} href="/index/rent/index/money/all">全部</a>
+                            <a {{if $smarty.session.search.money==1}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/money/1">500-700</a>
+                            <a {{if $smarty.session.search.money==2}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/money/2">700-1000</a>
+                            <a {{if $smarty.session.search.money==3}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/money/3">1000-1500</a>
+                            <a {{if $smarty.session.search.money==4}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/money/4">1500-2000</a>
+                            <a {{if $smarty.session.search.money==5}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/money/5">2000以上</a>
+                        </div>
+                    </div>
+                    <div class="s-box">
+                        <div class="s-title">户型：</div>
+                        <div class="s-l">
+                            <a {{if empty($smarty.session.search.type)}} class="s-all active" {{else}} class="s-all" {{/if}} href="/index/rent/index/type/all">全部</a>
+                            <a {{if $smarty.session.search.type==1}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/type/1">单间</a>
+                            <a {{if $smarty.session.search.type==2}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/type/2">标间套一</a>
+                            <a {{if $smarty.session.search.type==3}} class="s-area active" {{else}} class="s-all" {{/if}} href="/index/rent/index/type/3">整租</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <a class="new_email email-c" href="/mail.aspx" title="有新房源邮件通知"></a>
+    </div>
+</div>
+
+
+<div class="i-list container-min" style="overflow: visible;">
+    <div class="tab-resources">
+        <a class="current" href="#">自营房源</a>
+        <a class="" href="#">托管房源</a>
+        <a class="" href="#">全部</a>
+    </div>
+
+
+    {{foreach $house as $key=>$val}}
+    <div class="thumb-box ">
+        <a href="/index/rent/detail/id/{{$val.id}}" target="_blank">
+            <img src="{{$tse_img}}loading.gif" data-original="{{$val.img}}&width=318&height=212" width="318" height="212" alt="{{$val.title}}" />
+        </a>
+
+        <h4 class="title">
+            <span style="padding: 0 2px; font-size: 12px; color: #fff; background-color: #02a39b; border: 1px solid #02a39b; border-radius: 3px;">自营</span>
+            <a href="/index/rent/detail/id/{{$val.id}}"><strong>{{$val.title}}</strong></a>
+        </h4>
+        <div class="price">
+            <span>¥</span>
+            {{if $val.min_price == $val.max_price}}
+            {{$val.min_price}}
+            {{else}}
+            {{$val.min_price}}<span>~</span>{{$val.max_price}}
+            {{/if}}
+            元/月
+        </div>
+        <p class="des">{{$val.address}}</p>
+        <div class="clearfix"></div>
+    </div>
+    {{/foreach}}
+
+    <div class="bk20"></div>
+    <div class="paginator">{{$page}}</div>
+    <div class="portlet">
+        <div class="portlet-title">
+            <h4 class="caption">管家推荐</h4>
+        </div>
+        <div class="portlet-body rec-list">
+            {{foreach $promotion as $key=>$val}}
+            <div class="thumbnail">
+                <a class="rec-p" href="/index/rent/detail/id/{{$val.id}}" title="{{$val.address}}" target="_blank">
+                    <img src="{{$tse_img}}loading.gif" data-original="{{$val.img}}&width=158&height=105" width="158" height="105" alt="{{$val.address}}">
+                </a>
+                <p class="rec-info">
+                    <a href="/index/rent/detail/id/{{$val.id}}" title="{{$val.address}}" target="_blank">{{$val.address}}</a>
+                </p>
+                <div class="rec-price">
+                    ￥<span class="text-orange">
+                    {{if $val.min_price == $val.max_price}}
+                    {{$val.min_price}}
+                    {{else}}
+                    {{$val.min_price}} - {{$val.max_price}}
+                    {{/if}}
+                    </span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            {{/foreach}}
+        </div>
+    </div>
+</div>
+{{include file='share/footer.html'}}
+</body>
+
+</html>

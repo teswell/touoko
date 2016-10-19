@@ -1,0 +1,9 @@
+<div class="crumb-wrap">
+    <div class="crumb-list">
+        <i class="icon-font"></i><a href="/home/index/index">首页</a>
+        {{if !empty($navi)}}
+        <span class="crumb-step">&gt;</span>
+        <span class="crumb-name"><a href="{{$navi.url}}">{{$navi.name}}</a></span>
+        {{/if}}
+    </div>
+</div>
