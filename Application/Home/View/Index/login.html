@@ -10,27 +10,17 @@
     <div class="adming_login_border">
         <div class="admin_input">
             <form action="login" method="post">
-                <ul class="admin_items">
-                    <li>
-                        <input type="text" name="login[username]" id="user" size="40" class="admin_input_style" style="width:160px;"/>
-                    </li>
-                    <li>
-                        <input type="password" name="login[password]" id="pwd" size="40" class="admin_input_style" style="width:160px;"/>
-                    </li>
-                </ul>
-                <ul class="admin_items">
-                    <li>
-                        <input type="text" name="login[verify]" size="40" class="admin_input_style" style="width:160px;"/>
-                    </li>
-                    <li>
-                        <img src="http://{{$server_name}}/index.php/Home/Ath/verify" id="verify" style="width:160px;">
-                    </li>
-                </ul>
-                <ul class="admin_items">
-                    <li>
-                        <input type="submit" tabindex="3" value="提交" class="btn btn-primary" />
-                    </li>
-                </ul>
+                <div class="login_style">
+                    <input type="text" name="login[username]" id="user" size="40" class="admin_input_style" style="width:280px;margin-left: 15px;height: 28px;margin-top: 5px" value="请输入用户名" onfocus="clearValue(this)" onblur="getValue(this)"/>
+                    <input type="text" name="login[password]" id="pwd" size="40" class="admin_input_style" style="width:280px;height:28px;margin-left:20px" value="请输入密码" onfocus="clearValue(this)" onblur="getValue(this)"/>
+                </div>
+                <div class="verify_style">
+                    <input type="text" name="login[verify]" size="40" class="admin_input_style" style="width:280px;margin-left: 15px;height: 28px;margin-top: 6px" value="请输入验证码" onfocus="clearValue(this)" onblur="getValue(this)"/>
+                    <img src="http://{{$server_name}}/index.php/Home/Ath/verify" id="verify" style="width:288px;height: 36px;margin-left:20px;margin-top: 6px;position: absolute;left: 950px;top: 573px">
+                </div>
+                <div class="submit_style" style="margin-top: 6px">
+                    <input type="submit" tabindex="3" value="这个世界需要英雄,你来不来?" class="btn btn-primary" />
+                </div>
             </form>
         </div>
     </div>
@@ -49,5 +39,35 @@
             $(this).attr("src", verifyimg.replace(/\?.*$/,'')+'?'+Math.random());
         }
     });
+
+//    获取焦点事件:清空value 并且把密码栏变成password
+    function clearValue(event) {
+        var value = event.value;
+        var str = '请输入用户名,请输入验证码,请输入密码';
+        if (str.indexOf(value) > -1) {
+            event.value = '';
+        }
+        if (str.indexOf(value) == 14) {
+            //密码栏把type变成password
+            event.type = 'password';
+        }
+    }
+//如果用户没输入,复原
+    function getValue(event) {
+        if (event.value == '') {
+            switch (event.name) {
+                case 'login[username]':
+                    event.value = '请输入用户名';
+                    break;
+                case 'login[password]':
+                    event.value = '请输入密码';
+                    event.type = 'text';
+                    break;
+                default :
+                    event.value = '请输入验证码';
+                    break;
+            }
+        }
+    }
 </script>
 </html>
